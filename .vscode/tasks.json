@@ -8,7 +8,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lm"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -61,6 +62,25 @@
             "type": "cppbuild",
             "label": "C/C++: gcc arquivo de build ativo",
             "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Tarefa gerada pelo Depurador."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc-9 arquivo de build ativo ver(3)",
+            "command": "/usr/bin/gcc-9",
             "args": [
                 "-g",
                 "${file}",
