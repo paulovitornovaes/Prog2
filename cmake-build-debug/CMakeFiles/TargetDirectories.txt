@@ -1,0 +1,9 @@
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Prog2.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/ex07.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/lista_2_ex08.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/ex09.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/ex08.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/ex10.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/ex11.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

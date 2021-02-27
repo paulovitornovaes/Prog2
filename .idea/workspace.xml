@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Prog2" targetName="lista_2_ex08" />
+      <config projectName="Prog2" targetName="ex11" />
+      <config projectName="Prog2" targetName="ex10" />
+      <config projectName="Prog2" targetName="ex09" />
+      <config projectName="Prog2" targetName="Prog2" />
+      <config projectName="Prog2" targetName="ex08" />
+      <config projectName="Prog2" targetName="ex07" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aeb8818c-b340-404e-b031-d8508c94c4b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lista_2/ex08.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_2/ex09.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_2/ex10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_2/ex11.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex03.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex04.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_1/ex01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex01" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1p2TT9ZNWZeRUo3Puwzmk6VupUn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="CMake Application.ex11">
+    <configuration name="Prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="Prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="Prog2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex07" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex07">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex09" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex11" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lista_2_ex08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="lista_2_ex08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="lista_2_ex08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ex07" />
+      <item itemvalue="CMake Application.ex08" />
+      <item itemvalue="CMake Application.ex09" />
+      <item itemvalue="CMake Application.ex10" />
+      <item itemvalue="CMake Application.ex11" />
+      <item itemvalue="CMake Application.lista_2_ex08" />
+      <item itemvalue="CMake Application.Prog2" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeb8818c-b340-404e-b031-d8508c94c4b3" name="Default Changelist" comment="" />
+      <created>1614380191102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614380191102</updated>
+      <workItem from="1614380192787" duration="288000" />
+      <workItem from="1614380493804" duration="10265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
