@@ -48,11 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ex14.dir/DependInfo.cmake"
   "CMakeFiles/Prog2.dir/DependInfo.cmake"
-  "CMakeFiles/ex07.dir/DependInfo.cmake"
-  "CMakeFiles/lista_2_ex08.dir/DependInfo.cmake"
-  "CMakeFiles/ex09.dir/DependInfo.cmake"
-  "CMakeFiles/ex08.dir/DependInfo.cmake"
   "CMakeFiles/ex10.dir/DependInfo.cmake"
-  "CMakeFiles/ex11.dir/DependInfo.cmake"
   )

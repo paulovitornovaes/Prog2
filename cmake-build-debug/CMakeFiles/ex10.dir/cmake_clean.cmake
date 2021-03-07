@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex10.dir/lista_2/ex10.c.obj"
+  "CMakeFiles/ex10.dir/lista_3/ex10.c.obj"
   "ex10.exe"
   "ex10.exe.manifest"
   "ex10.pdb"
