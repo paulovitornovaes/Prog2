@@ -2,13 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Prog2" targetName="lista_2_ex08" />
-      <config projectName="Prog2" targetName="ex11" />
-      <config projectName="Prog2" targetName="ex10" />
       <config projectName="Prog2" targetName="ex09" />
-      <config projectName="Prog2" targetName="Prog2" />
+      <config projectName="Prog2" targetName="teste" />
+      <config projectName="Prog2" targetName="ex06" />
+      <config projectName="Prog2" targetName="ex05" />
       <config projectName="Prog2" targetName="ex08" />
       <config projectName="Prog2" targetName="ex07" />
+      <config projectName="Prog2" targetName="lista_2_ex08" />
+      <config projectName="Prog2" targetName="ex02" />
+      <config projectName="Prog2" targetName="ex01" />
+      <config projectName="Prog2" targetName="ex04" />
+      <config projectName="Prog2" targetName="ex03" />
+      <config projectName="Prog2" targetName="ex11" />
+      <config projectName="Prog2" targetName="ex10" />
+      <config projectName="Prog2" targetName="Prog2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -18,18 +25,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb8818c-b340-404e-b031-d8508c94c4b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lista_2/ex08.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista_2/ex09.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista_2/ex10.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista_2/ex11.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex03.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex04.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex01" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex06.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex08.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_3/ex09.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/lista_2/ex07.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex07.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex08.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex09.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex10.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex10.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex11.dir/lista_2/ex11.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex11.dir/lista_2/ex11.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex11.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex11.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex11.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex11.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lista_2_ex08.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lista_2_ex08.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Prog2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Prog2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex07.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex07.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex08.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex08.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex09.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex09.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_1/ex08.c" beforeDir="false" afterPath="$PROJECT_DIR$/lista_1/ex08.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex04.c" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2/ex04.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex05.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex06.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex07.c" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2/ex07.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_2/ex07.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +112,43 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex11">
+  <component name="RunManager" selected="CMake Application.ex09">
     <configuration name="Prog2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="Prog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="Prog2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="ex06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="ex06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,12 +183,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="teste" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Prog2" TARGET_NAME="teste" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog2" RUN_TARGET_NAME="teste">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.ex01" />
+      <item itemvalue="CMake Application.ex02" />
+      <item itemvalue="CMake Application.ex03" />
+      <item itemvalue="CMake Application.ex04" />
+      <item itemvalue="CMake Application.ex05" />
+      <item itemvalue="CMake Application.ex06" />
       <item itemvalue="CMake Application.ex07" />
       <item itemvalue="CMake Application.ex08" />
       <item itemvalue="CMake Application.ex09" />
@@ -110,6 +202,7 @@
       <item itemvalue="CMake Application.ex11" />
       <item itemvalue="CMake Application.lista_2_ex08" />
       <item itemvalue="CMake Application.Prog2" />
+      <item itemvalue="CMake Application.teste" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,8 +214,27 @@
       <option name="presentableId" value="Default" />
       <updated>1614380191102</updated>
       <workItem from="1614380192787" duration="288000" />
-      <workItem from="1614380493804" duration="10265000" />
+      <workItem from="1614380493804" duration="10768000" />
+      <workItem from="1614632782287" duration="8681000" />
+      <workItem from="1614644466404" duration="1269000" />
+      <workItem from="1614713881203" duration="79000" />
+      <workItem from="1614732010612" duration="814000" />
+      <workItem from="1614817440700" duration="267000" />
+      <workItem from="1614878406911" duration="2057000" />
+      <workItem from="1614895826828" duration="690000" />
+      <workItem from="1614905375129" duration="2000" />
+      <workItem from="1614944705852" duration="2759000" />
+      <workItem from="1614969575306" duration="22000" />
+      <workItem from="1614971266184" duration="14185000" />
     </task>
+    <task id="LOCAL-00001" summary="lista 2 quase completa">
+      <created>1614395417471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614395417471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,5 +251,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lista 2 quase completa" />
+    <option name="LAST_COMMIT_MESSAGE" value="lista 2 quase completa" />
   </component>
 </project>

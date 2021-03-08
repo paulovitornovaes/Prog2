@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// FALTA FAZER MAIS TESTES
 int main(){
     int HorasSemana, ValorHora, resultado;
 

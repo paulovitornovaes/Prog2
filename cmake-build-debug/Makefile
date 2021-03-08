@@ -220,32 +220,96 @@ ex11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex11.dir\build.make CMakeFiles/ex11.dir/build
 .PHONY : ex11/fast
 
-lista_2/ex07.obj: lista_2/ex07.c.obj
+#=============================================================================
+# Target rules for targets named ex04
 
-.PHONY : lista_2/ex07.obj
+# Build rule for target.
+ex04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex04
+.PHONY : ex04
 
-# target to build an object file
-lista_2/ex07.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex07.dir\build.make CMakeFiles/ex07.dir/lista_2/ex07.c.obj
-.PHONY : lista_2/ex07.c.obj
+# fast build rule for target.
+ex04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex04.dir\build.make CMakeFiles/ex04.dir/build
+.PHONY : ex04/fast
 
-lista_2/ex07.i: lista_2/ex07.c.i
+#=============================================================================
+# Target rules for targets named teste
 
-.PHONY : lista_2/ex07.i
+# Build rule for target.
+teste: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 teste
+.PHONY : teste
 
-# target to preprocess a source file
-lista_2/ex07.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex07.dir\build.make CMakeFiles/ex07.dir/lista_2/ex07.c.i
-.PHONY : lista_2/ex07.c.i
+# fast build rule for target.
+teste/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/build
+.PHONY : teste/fast
 
-lista_2/ex07.s: lista_2/ex07.c.s
+#=============================================================================
+# Target rules for targets named ex01
 
-.PHONY : lista_2/ex07.s
+# Build rule for target.
+ex01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex01
+.PHONY : ex01
 
-# target to generate assembly for a file
-lista_2/ex07.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex07.dir\build.make CMakeFiles/ex07.dir/lista_2/ex07.c.s
-.PHONY : lista_2/ex07.c.s
+# fast build rule for target.
+ex01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/build
+.PHONY : ex01/fast
+
+#=============================================================================
+# Target rules for targets named ex02
+
+# Build rule for target.
+ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex02
+.PHONY : ex02
+
+# fast build rule for target.
+ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex02.dir\build.make CMakeFiles/ex02.dir/build
+.PHONY : ex02/fast
+
+#=============================================================================
+# Target rules for targets named ex03
+
+# Build rule for target.
+ex03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex03
+.PHONY : ex03
+
+# fast build rule for target.
+ex03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex03.dir\build.make CMakeFiles/ex03.dir/build
+.PHONY : ex03/fast
+
+#=============================================================================
+# Target rules for targets named ex05
+
+# Build rule for target.
+ex05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex05
+.PHONY : ex05
+
+# fast build rule for target.
+ex05/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex05.dir\build.make CMakeFiles/ex05.dir/build
+.PHONY : ex05/fast
+
+#=============================================================================
+# Target rules for targets named ex06
+
+# Build rule for target.
+ex06: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex06
+.PHONY : ex06
+
+# fast build rule for target.
+ex06/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex06.dir\build.make CMakeFiles/ex06.dir/build
+.PHONY : ex06/fast
 
 lista_2/ex08.obj: lista_2/ex08.c.obj
 
@@ -254,7 +318,6 @@ lista_2/ex08.obj: lista_2/ex08.c.obj
 # target to build an object file
 lista_2/ex08.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista_2_ex08.dir\build.make CMakeFiles/lista_2_ex08.dir/lista_2/ex08.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex08.dir\build.make CMakeFiles/ex08.dir/lista_2/ex08.c.obj
 .PHONY : lista_2/ex08.c.obj
 
 lista_2/ex08.i: lista_2/ex08.c.i
@@ -264,7 +327,6 @@ lista_2/ex08.i: lista_2/ex08.c.i
 # target to preprocess a source file
 lista_2/ex08.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista_2_ex08.dir\build.make CMakeFiles/lista_2_ex08.dir/lista_2/ex08.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex08.dir\build.make CMakeFiles/ex08.dir/lista_2/ex08.c.i
 .PHONY : lista_2/ex08.c.i
 
 lista_2/ex08.s: lista_2/ex08.c.s
@@ -274,35 +336,7 @@ lista_2/ex08.s: lista_2/ex08.c.s
 # target to generate assembly for a file
 lista_2/ex08.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lista_2_ex08.dir\build.make CMakeFiles/lista_2_ex08.dir/lista_2/ex08.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex08.dir\build.make CMakeFiles/ex08.dir/lista_2/ex08.c.s
 .PHONY : lista_2/ex08.c.s
-
-lista_2/ex09.obj: lista_2/ex09.c.obj
-
-.PHONY : lista_2/ex09.obj
-
-# target to build an object file
-lista_2/ex09.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex09.dir\build.make CMakeFiles/ex09.dir/lista_2/ex09.c.obj
-.PHONY : lista_2/ex09.c.obj
-
-lista_2/ex09.i: lista_2/ex09.c.i
-
-.PHONY : lista_2/ex09.i
-
-# target to preprocess a source file
-lista_2/ex09.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex09.dir\build.make CMakeFiles/ex09.dir/lista_2/ex09.c.i
-.PHONY : lista_2/ex09.c.i
-
-lista_2/ex09.s: lista_2/ex09.c.s
-
-.PHONY : lista_2/ex09.s
-
-# target to generate assembly for a file
-lista_2/ex09.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex09.dir\build.make CMakeFiles/ex09.dir/lista_2/ex09.c.s
-.PHONY : lista_2/ex09.c.s
 
 lista_2/ex10.obj: lista_2/ex10.c.obj
 
@@ -358,6 +392,249 @@ lista_2/ex11.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex11.dir\build.make CMakeFiles/ex11.dir/lista_2/ex11.c.s
 .PHONY : lista_2/ex11.c.s
 
+lista_3/ex01.obj: lista_3/ex01.c.obj
+
+.PHONY : lista_3/ex01.obj
+
+# target to build an object file
+lista_3/ex01.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/lista_3/ex01.c.obj
+.PHONY : lista_3/ex01.c.obj
+
+lista_3/ex01.i: lista_3/ex01.c.i
+
+.PHONY : lista_3/ex01.i
+
+# target to preprocess a source file
+lista_3/ex01.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/lista_3/ex01.c.i
+.PHONY : lista_3/ex01.c.i
+
+lista_3/ex01.s: lista_3/ex01.c.s
+
+.PHONY : lista_3/ex01.s
+
+# target to generate assembly for a file
+lista_3/ex01.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/lista_3/ex01.c.s
+.PHONY : lista_3/ex01.c.s
+
+lista_3/ex02.obj: lista_3/ex02.c.obj
+
+.PHONY : lista_3/ex02.obj
+
+# target to build an object file
+lista_3/ex02.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex02.dir\build.make CMakeFiles/ex02.dir/lista_3/ex02.c.obj
+.PHONY : lista_3/ex02.c.obj
+
+lista_3/ex02.i: lista_3/ex02.c.i
+
+.PHONY : lista_3/ex02.i
+
+# target to preprocess a source file
+lista_3/ex02.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex02.dir\build.make CMakeFiles/ex02.dir/lista_3/ex02.c.i
+.PHONY : lista_3/ex02.c.i
+
+lista_3/ex02.s: lista_3/ex02.c.s
+
+.PHONY : lista_3/ex02.s
+
+# target to generate assembly for a file
+lista_3/ex02.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex02.dir\build.make CMakeFiles/ex02.dir/lista_3/ex02.c.s
+.PHONY : lista_3/ex02.c.s
+
+lista_3/ex03.obj: lista_3/ex03.c.obj
+
+.PHONY : lista_3/ex03.obj
+
+# target to build an object file
+lista_3/ex03.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex03.dir\build.make CMakeFiles/ex03.dir/lista_3/ex03.c.obj
+.PHONY : lista_3/ex03.c.obj
+
+lista_3/ex03.i: lista_3/ex03.c.i
+
+.PHONY : lista_3/ex03.i
+
+# target to preprocess a source file
+lista_3/ex03.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex03.dir\build.make CMakeFiles/ex03.dir/lista_3/ex03.c.i
+.PHONY : lista_3/ex03.c.i
+
+lista_3/ex03.s: lista_3/ex03.c.s
+
+.PHONY : lista_3/ex03.s
+
+# target to generate assembly for a file
+lista_3/ex03.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex03.dir\build.make CMakeFiles/ex03.dir/lista_3/ex03.c.s
+.PHONY : lista_3/ex03.c.s
+
+lista_3/ex04.obj: lista_3/ex04.c.obj
+
+.PHONY : lista_3/ex04.obj
+
+# target to build an object file
+lista_3/ex04.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex04.dir\build.make CMakeFiles/ex04.dir/lista_3/ex04.c.obj
+.PHONY : lista_3/ex04.c.obj
+
+lista_3/ex04.i: lista_3/ex04.c.i
+
+.PHONY : lista_3/ex04.i
+
+# target to preprocess a source file
+lista_3/ex04.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex04.dir\build.make CMakeFiles/ex04.dir/lista_3/ex04.c.i
+.PHONY : lista_3/ex04.c.i
+
+lista_3/ex04.s: lista_3/ex04.c.s
+
+.PHONY : lista_3/ex04.s
+
+# target to generate assembly for a file
+lista_3/ex04.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex04.dir\build.make CMakeFiles/ex04.dir/lista_3/ex04.c.s
+.PHONY : lista_3/ex04.c.s
+
+lista_3/ex05.obj: lista_3/ex05.c.obj
+
+.PHONY : lista_3/ex05.obj
+
+# target to build an object file
+lista_3/ex05.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex05.dir\build.make CMakeFiles/ex05.dir/lista_3/ex05.c.obj
+.PHONY : lista_3/ex05.c.obj
+
+lista_3/ex05.i: lista_3/ex05.c.i
+
+.PHONY : lista_3/ex05.i
+
+# target to preprocess a source file
+lista_3/ex05.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex05.dir\build.make CMakeFiles/ex05.dir/lista_3/ex05.c.i
+.PHONY : lista_3/ex05.c.i
+
+lista_3/ex05.s: lista_3/ex05.c.s
+
+.PHONY : lista_3/ex05.s
+
+# target to generate assembly for a file
+lista_3/ex05.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex05.dir\build.make CMakeFiles/ex05.dir/lista_3/ex05.c.s
+.PHONY : lista_3/ex05.c.s
+
+lista_3/ex06.obj: lista_3/ex06.c.obj
+
+.PHONY : lista_3/ex06.obj
+
+# target to build an object file
+lista_3/ex06.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex06.dir\build.make CMakeFiles/ex06.dir/lista_3/ex06.c.obj
+.PHONY : lista_3/ex06.c.obj
+
+lista_3/ex06.i: lista_3/ex06.c.i
+
+.PHONY : lista_3/ex06.i
+
+# target to preprocess a source file
+lista_3/ex06.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex06.dir\build.make CMakeFiles/ex06.dir/lista_3/ex06.c.i
+.PHONY : lista_3/ex06.c.i
+
+lista_3/ex06.s: lista_3/ex06.c.s
+
+.PHONY : lista_3/ex06.s
+
+# target to generate assembly for a file
+lista_3/ex06.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex06.dir\build.make CMakeFiles/ex06.dir/lista_3/ex06.c.s
+.PHONY : lista_3/ex06.c.s
+
+lista_3/ex07.obj: lista_3/ex07.c.obj
+
+.PHONY : lista_3/ex07.obj
+
+# target to build an object file
+lista_3/ex07.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex07.dir\build.make CMakeFiles/ex07.dir/lista_3/ex07.c.obj
+.PHONY : lista_3/ex07.c.obj
+
+lista_3/ex07.i: lista_3/ex07.c.i
+
+.PHONY : lista_3/ex07.i
+
+# target to preprocess a source file
+lista_3/ex07.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex07.dir\build.make CMakeFiles/ex07.dir/lista_3/ex07.c.i
+.PHONY : lista_3/ex07.c.i
+
+lista_3/ex07.s: lista_3/ex07.c.s
+
+.PHONY : lista_3/ex07.s
+
+# target to generate assembly for a file
+lista_3/ex07.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex07.dir\build.make CMakeFiles/ex07.dir/lista_3/ex07.c.s
+.PHONY : lista_3/ex07.c.s
+
+lista_3/ex08.obj: lista_3/ex08.c.obj
+
+.PHONY : lista_3/ex08.obj
+
+# target to build an object file
+lista_3/ex08.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex08.dir\build.make CMakeFiles/ex08.dir/lista_3/ex08.c.obj
+.PHONY : lista_3/ex08.c.obj
+
+lista_3/ex08.i: lista_3/ex08.c.i
+
+.PHONY : lista_3/ex08.i
+
+# target to preprocess a source file
+lista_3/ex08.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex08.dir\build.make CMakeFiles/ex08.dir/lista_3/ex08.c.i
+.PHONY : lista_3/ex08.c.i
+
+lista_3/ex08.s: lista_3/ex08.c.s
+
+.PHONY : lista_3/ex08.s
+
+# target to generate assembly for a file
+lista_3/ex08.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex08.dir\build.make CMakeFiles/ex08.dir/lista_3/ex08.c.s
+.PHONY : lista_3/ex08.c.s
+
+lista_3/ex09.obj: lista_3/ex09.c.obj
+
+.PHONY : lista_3/ex09.obj
+
+# target to build an object file
+lista_3/ex09.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex09.dir\build.make CMakeFiles/ex09.dir/lista_3/ex09.c.obj
+.PHONY : lista_3/ex09.c.obj
+
+lista_3/ex09.i: lista_3/ex09.c.i
+
+.PHONY : lista_3/ex09.i
+
+# target to preprocess a source file
+lista_3/ex09.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex09.dir\build.make CMakeFiles/ex09.dir/lista_3/ex09.c.i
+.PHONY : lista_3/ex09.c.i
+
+lista_3/ex09.s: lista_3/ex09.c.s
+
+.PHONY : lista_3/ex09.s
+
+# target to generate assembly for a file
+lista_3/ex09.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex09.dir\build.make CMakeFiles/ex09.dir/lista_3/ex09.c.s
+.PHONY : lista_3/ex09.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -385,6 +662,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog2.dir\build.make CMakeFiles/Prog2.dir/main.c.s
 .PHONY : main.c.s
 
+teste.obj: teste.c.obj
+
+.PHONY : teste.obj
+
+# target to build an object file
+teste.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/teste.c.obj
+.PHONY : teste.c.obj
+
+teste.i: teste.c.i
+
+.PHONY : teste.i
+
+# target to preprocess a source file
+teste.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/teste.c.i
+.PHONY : teste.c.i
+
+teste.s: teste.c.s
+
+.PHONY : teste.s
+
+# target to generate assembly for a file
+teste.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/teste.c.s
+.PHONY : teste.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -394,30 +698,61 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Prog2
+	@echo ... ex01
+	@echo ... ex02
+	@echo ... ex03
+	@echo ... ex04
+	@echo ... ex05
+	@echo ... ex06
 	@echo ... ex07
 	@echo ... ex08
 	@echo ... ex09
 	@echo ... ex10
 	@echo ... ex11
 	@echo ... lista_2_ex08
-	@echo ... lista_2/ex07.obj
-	@echo ... lista_2/ex07.i
-	@echo ... lista_2/ex07.s
+	@echo ... teste
 	@echo ... lista_2/ex08.obj
 	@echo ... lista_2/ex08.i
 	@echo ... lista_2/ex08.s
-	@echo ... lista_2/ex09.obj
-	@echo ... lista_2/ex09.i
-	@echo ... lista_2/ex09.s
 	@echo ... lista_2/ex10.obj
 	@echo ... lista_2/ex10.i
 	@echo ... lista_2/ex10.s
 	@echo ... lista_2/ex11.obj
 	@echo ... lista_2/ex11.i
 	@echo ... lista_2/ex11.s
+	@echo ... lista_3/ex01.obj
+	@echo ... lista_3/ex01.i
+	@echo ... lista_3/ex01.s
+	@echo ... lista_3/ex02.obj
+	@echo ... lista_3/ex02.i
+	@echo ... lista_3/ex02.s
+	@echo ... lista_3/ex03.obj
+	@echo ... lista_3/ex03.i
+	@echo ... lista_3/ex03.s
+	@echo ... lista_3/ex04.obj
+	@echo ... lista_3/ex04.i
+	@echo ... lista_3/ex04.s
+	@echo ... lista_3/ex05.obj
+	@echo ... lista_3/ex05.i
+	@echo ... lista_3/ex05.s
+	@echo ... lista_3/ex06.obj
+	@echo ... lista_3/ex06.i
+	@echo ... lista_3/ex06.s
+	@echo ... lista_3/ex07.obj
+	@echo ... lista_3/ex07.i
+	@echo ... lista_3/ex07.s
+	@echo ... lista_3/ex08.obj
+	@echo ... lista_3/ex08.i
+	@echo ... lista_3/ex08.s
+	@echo ... lista_3/ex09.obj
+	@echo ... lista_3/ex09.i
+	@echo ... lista_3/ex09.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... teste.obj
+	@echo ... teste.i
+	@echo ... teste.s
 .PHONY : help
 
 

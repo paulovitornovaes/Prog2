@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/vitinhogay/Documents/Prog2/lista_2/ex08.c
+D:/vitinhogay/Documents/Prog2/lista_3/ex08.c
+conio.h
+-
 stdio.h
 -
 

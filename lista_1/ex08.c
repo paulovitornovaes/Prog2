@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// refazer com funcao
 int main(){
     int n1;
     //Entrada do valor

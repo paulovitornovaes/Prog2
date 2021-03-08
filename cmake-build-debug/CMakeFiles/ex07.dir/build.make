@@ -76,27 +76,27 @@ include CMakeFiles/ex07.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex07.dir/flags.make
 
-CMakeFiles/ex07.dir/lista_2/ex07.c.obj: CMakeFiles/ex07.dir/flags.make
-CMakeFiles/ex07.dir/lista_2/ex07.c.obj: ../lista_2/ex07.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex07.dir/lista_2/ex07.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ex07.dir\lista_2\ex07.c.obj   -c D:\vitinhogay\Documents\Prog2\lista_2\ex07.c
+CMakeFiles/ex07.dir/lista_3/ex07.c.obj: CMakeFiles/ex07.dir/flags.make
+CMakeFiles/ex07.dir/lista_3/ex07.c.obj: ../lista_3/ex07.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex07.dir/lista_3/ex07.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ex07.dir\lista_3\ex07.c.obj   -c D:\vitinhogay\Documents\Prog2\lista_3\ex07.c
 
-CMakeFiles/ex07.dir/lista_2/ex07.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex07.dir/lista_2/ex07.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\vitinhogay\Documents\Prog2\lista_2\ex07.c > CMakeFiles\ex07.dir\lista_2\ex07.c.i
+CMakeFiles/ex07.dir/lista_3/ex07.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex07.dir/lista_3/ex07.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\vitinhogay\Documents\Prog2\lista_3\ex07.c > CMakeFiles\ex07.dir\lista_3\ex07.c.i
 
-CMakeFiles/ex07.dir/lista_2/ex07.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex07.dir/lista_2/ex07.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\vitinhogay\Documents\Prog2\lista_2\ex07.c -o CMakeFiles\ex07.dir\lista_2\ex07.c.s
+CMakeFiles/ex07.dir/lista_3/ex07.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex07.dir/lista_3/ex07.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\vitinhogay\Documents\Prog2\lista_3\ex07.c -o CMakeFiles\ex07.dir\lista_3\ex07.c.s
 
 # Object files for target ex07
 ex07_OBJECTS = \
-"CMakeFiles/ex07.dir/lista_2/ex07.c.obj"
+"CMakeFiles/ex07.dir/lista_3/ex07.c.obj"
 
 # External object files for target ex07
 ex07_EXTERNAL_OBJECTS =
 
-ex07.exe: CMakeFiles/ex07.dir/lista_2/ex07.c.obj
+ex07.exe: CMakeFiles/ex07.dir/lista_3/ex07.c.obj
 ex07.exe: CMakeFiles/ex07.dir/build.make
 ex07.exe: CMakeFiles/ex07.dir/linklibs.rsp
 ex07.exe: CMakeFiles/ex07.dir/objects1.rsp

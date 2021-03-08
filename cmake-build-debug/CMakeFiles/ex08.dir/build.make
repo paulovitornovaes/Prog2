@@ -76,27 +76,27 @@ include CMakeFiles/ex08.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex08.dir/flags.make
 
-CMakeFiles/ex08.dir/lista_2/ex08.c.obj: CMakeFiles/ex08.dir/flags.make
-CMakeFiles/ex08.dir/lista_2/ex08.c.obj: ../lista_2/ex08.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex08.dir/lista_2/ex08.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ex08.dir\lista_2\ex08.c.obj   -c D:\vitinhogay\Documents\Prog2\lista_2\ex08.c
+CMakeFiles/ex08.dir/lista_3/ex08.c.obj: CMakeFiles/ex08.dir/flags.make
+CMakeFiles/ex08.dir/lista_3/ex08.c.obj: ../lista_3/ex08.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ex08.dir/lista_3/ex08.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ex08.dir\lista_3\ex08.c.obj   -c D:\vitinhogay\Documents\Prog2\lista_3\ex08.c
 
-CMakeFiles/ex08.dir/lista_2/ex08.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex08.dir/lista_2/ex08.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\vitinhogay\Documents\Prog2\lista_2\ex08.c > CMakeFiles\ex08.dir\lista_2\ex08.c.i
+CMakeFiles/ex08.dir/lista_3/ex08.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex08.dir/lista_3/ex08.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\vitinhogay\Documents\Prog2\lista_3\ex08.c > CMakeFiles\ex08.dir\lista_3\ex08.c.i
 
-CMakeFiles/ex08.dir/lista_2/ex08.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex08.dir/lista_2/ex08.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\vitinhogay\Documents\Prog2\lista_2\ex08.c -o CMakeFiles\ex08.dir\lista_2\ex08.c.s
+CMakeFiles/ex08.dir/lista_3/ex08.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex08.dir/lista_3/ex08.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\vitinhogay\Documents\Prog2\lista_3\ex08.c -o CMakeFiles\ex08.dir\lista_3\ex08.c.s
 
 # Object files for target ex08
 ex08_OBJECTS = \
-"CMakeFiles/ex08.dir/lista_2/ex08.c.obj"
+"CMakeFiles/ex08.dir/lista_3/ex08.c.obj"
 
 # External object files for target ex08
 ex08_EXTERNAL_OBJECTS =
 
-ex08.exe: CMakeFiles/ex08.dir/lista_2/ex08.c.obj
+ex08.exe: CMakeFiles/ex08.dir/lista_3/ex08.c.obj
 ex08.exe: CMakeFiles/ex08.dir/build.make
 ex08.exe: CMakeFiles/ex08.dir/linklibs.rsp
 ex08.exe: CMakeFiles/ex08.dir/objects1.rsp
