@@ -13,43 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee6c325-2907-41a9-9f39-b05929ab125d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lista_3/Lista3.Exercicio12.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista_4/ex01.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/vitinhogay.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex01.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex02.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex03.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex04.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex05.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex06.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex07.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1/ex08.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex01.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex02.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex03.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex04.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex05.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex06.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex07.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex08.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex09.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex10.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2/ex11.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex01.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex02.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex03.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex04.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex05.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex06.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex07.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex08.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex10.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex11.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_3/ex14.c" beforeDir="false" />
-    </list>
+    <list default="true" id="1ee6c325-2907-41a9-9f39-b05929ab125d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,8 +86,16 @@
       <workItem from="1615230085347" duration="1543000" />
       <workItem from="1615238328876" duration="1161000" />
       <workItem from="1615244255674" duration="4620000" />
-      <workItem from="1615418893653" duration="376000" />
+      <workItem from="1615418893653" duration="712000" />
     </task>
+    <task id="LOCAL-00001" summary="finalizado primeira avaliacao">
+      <created>1615419496708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615419496708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,5 +112,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finalizado primeira avaliacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizado primeira avaliacao" />
   </component>
 </project>
