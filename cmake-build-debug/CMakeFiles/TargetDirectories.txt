@@ -1,0 +1,5 @@
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista2.Exercicio1.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista3.Exercicio2.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/ex01.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
