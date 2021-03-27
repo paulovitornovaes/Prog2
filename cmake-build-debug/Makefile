@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = D:\vitinhogay\Documents\Prog2\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,124 +130,844 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lista2.Exercicio1
+# Target rules for targets named Lista4.Exercicio1
 
 # Build rule for target.
-Lista2.Exercicio1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista2.Exercicio1
-.PHONY : Lista2.Exercicio1
+Lista4.Exercicio1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio1
+.PHONY : Lista4.Exercicio1
 
 # fast build rule for target.
-Lista2.Exercicio1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista2.Exercicio1.dir\build.make CMakeFiles/Lista2.Exercicio1.dir/build
-.PHONY : Lista2.Exercicio1/fast
+Lista4.Exercicio1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio1.dir\build.make CMakeFiles/Lista4.Exercicio1.dir/build
+.PHONY : Lista4.Exercicio1/fast
 
 #=============================================================================
-# Target rules for targets named Lista3.Exercicio2
+# Target rules for targets named Lista4.Exercicio3
 
 # Build rule for target.
-Lista3.Exercicio2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista3.Exercicio2
-.PHONY : Lista3.Exercicio2
+Lista4.Exercicio3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio3
+.PHONY : Lista4.Exercicio3
 
 # fast build rule for target.
-Lista3.Exercicio2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio2.dir\build.make CMakeFiles/Lista3.Exercicio2.dir/build
-.PHONY : Lista3.Exercicio2/fast
+Lista4.Exercicio3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio3.dir\build.make CMakeFiles/Lista4.Exercicio3.dir/build
+.PHONY : Lista4.Exercicio3/fast
 
 #=============================================================================
-# Target rules for targets named ex01
+# Target rules for targets named Lista6.Exercicio1
 
 # Build rule for target.
-ex01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex01
-.PHONY : ex01
+Lista6.Exercicio1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista6.Exercicio1
+.PHONY : Lista6.Exercicio1
 
 # fast build rule for target.
-ex01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/build
-.PHONY : ex01/fast
+Lista6.Exercicio1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio1.dir\build.make CMakeFiles/Lista6.Exercicio1.dir/build
+.PHONY : Lista6.Exercicio1/fast
 
-lista_2/Lista2.Exercicio1.obj: lista_2/Lista2.Exercicio1.c.obj
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio2
 
-.PHONY : lista_2/Lista2.Exercicio1.obj
+# Build rule for target.
+Lista4.Exercicio2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio2
+.PHONY : Lista4.Exercicio2
+
+# fast build rule for target.
+Lista4.Exercicio2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio2.dir\build.make CMakeFiles/Lista4.Exercicio2.dir/build
+.PHONY : Lista4.Exercicio2/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio8
+
+# Build rule for target.
+Lista4.Exercicio8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio8
+.PHONY : Lista4.Exercicio8
+
+# fast build rule for target.
+Lista4.Exercicio8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio8.dir\build.make CMakeFiles/Lista4.Exercicio8.dir/build
+.PHONY : Lista4.Exercicio8/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio11
+
+# Build rule for target.
+Lista4.Exercicio11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio11
+.PHONY : Lista4.Exercicio11
+
+# fast build rule for target.
+Lista4.Exercicio11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio11.dir\build.make CMakeFiles/Lista4.Exercicio11.dir/build
+.PHONY : Lista4.Exercicio11/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio4
+
+# Build rule for target.
+Lista4.Exercicio4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio4
+.PHONY : Lista4.Exercicio4
+
+# fast build rule for target.
+Lista4.Exercicio4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio4.dir\build.make CMakeFiles/Lista4.Exercicio4.dir/build
+.PHONY : Lista4.Exercicio4/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio5
+
+# Build rule for target.
+Lista4.Exercicio5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio5
+.PHONY : Lista4.Exercicio5
+
+# fast build rule for target.
+Lista4.Exercicio5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio5.dir\build.make CMakeFiles/Lista4.Exercicio5.dir/build
+.PHONY : Lista4.Exercicio5/fast
+
+#=============================================================================
+# Target rules for targets named teste
+
+# Build rule for target.
+teste: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 teste
+.PHONY : teste
+
+# fast build rule for target.
+teste/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/build
+.PHONY : teste/fast
+
+#=============================================================================
+# Target rules for targets named Lista6.Exercicio6
+
+# Build rule for target.
+Lista6.Exercicio6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista6.Exercicio6
+.PHONY : Lista6.Exercicio6
+
+# fast build rule for target.
+Lista6.Exercicio6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio6.dir\build.make CMakeFiles/Lista6.Exercicio6.dir/build
+.PHONY : Lista6.Exercicio6/fast
+
+#=============================================================================
+# Target rules for targets named Lista6.Exercicio2
+
+# Build rule for target.
+Lista6.Exercicio2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista6.Exercicio2
+.PHONY : Lista6.Exercicio2
+
+# fast build rule for target.
+Lista6.Exercicio2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio2.dir\build.make CMakeFiles/Lista6.Exercicio2.dir/build
+.PHONY : Lista6.Exercicio2/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio7
+
+# Build rule for target.
+Lista4.Exercicio7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio7
+.PHONY : Lista4.Exercicio7
+
+# fast build rule for target.
+Lista4.Exercicio7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio7.dir\build.make CMakeFiles/Lista4.Exercicio7.dir/build
+.PHONY : Lista4.Exercicio7/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio9
+
+# Build rule for target.
+Lista4.Exercicio9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio9
+.PHONY : Lista4.Exercicio9
+
+# fast build rule for target.
+Lista4.Exercicio9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio9.dir\build.make CMakeFiles/Lista4.Exercicio9.dir/build
+.PHONY : Lista4.Exercicio9/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio10
+
+# Build rule for target.
+Lista4.Exercicio10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio10
+.PHONY : Lista4.Exercicio10
+
+# fast build rule for target.
+Lista4.Exercicio10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio10.dir\build.make CMakeFiles/Lista4.Exercicio10.dir/build
+.PHONY : Lista4.Exercicio10/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio8
+
+# Build rule for target.
+Lista5.Exercicio8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio8
+.PHONY : Lista5.Exercicio8
+
+# fast build rule for target.
+Lista5.Exercicio8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio8.dir\build.make CMakeFiles/Lista5.Exercicio8.dir/build
+.PHONY : Lista5.Exercicio8/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio13
+
+# Build rule for target.
+Lista5.Exercicio13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio13
+.PHONY : Lista5.Exercicio13
+
+# fast build rule for target.
+Lista5.Exercicio13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/build
+.PHONY : Lista5.Exercicio13/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio9
+
+# Build rule for target.
+Lista5.Exercicio9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio9
+.PHONY : Lista5.Exercicio9
+
+# fast build rule for target.
+Lista5.Exercicio9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio9.dir\build.make CMakeFiles/Lista5.Exercicio9.dir/build
+.PHONY : Lista5.Exercicio9/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio5
+
+# Build rule for target.
+Lista5.Exercicio5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio5
+.PHONY : Lista5.Exercicio5
+
+# fast build rule for target.
+Lista5.Exercicio5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio5.dir\build.make CMakeFiles/Lista5.Exercicio5.dir/build
+.PHONY : Lista5.Exercicio5/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio1
+
+# Build rule for target.
+Lista5.Exercicio1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio1
+.PHONY : Lista5.Exercicio1
+
+# fast build rule for target.
+Lista5.Exercicio1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio1.dir\build.make CMakeFiles/Lista5.Exercicio1.dir/build
+.PHONY : Lista5.Exercicio1/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio3
+
+# Build rule for target.
+Lista5.Exercicio3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio3
+.PHONY : Lista5.Exercicio3
+
+# fast build rule for target.
+Lista5.Exercicio3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio3.dir\build.make CMakeFiles/Lista5.Exercicio3.dir/build
+.PHONY : Lista5.Exercicio3/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio2
+
+# Build rule for target.
+Lista5.Exercicio2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio2
+.PHONY : Lista5.Exercicio2
+
+# fast build rule for target.
+Lista5.Exercicio2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio2.dir\build.make CMakeFiles/Lista5.Exercicio2.dir/build
+.PHONY : Lista5.Exercicio2/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio12
+
+# Build rule for target.
+Lista4.Exercicio12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio12
+.PHONY : Lista4.Exercicio12
+
+# fast build rule for target.
+Lista4.Exercicio12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio12.dir\build.make CMakeFiles/Lista4.Exercicio12.dir/build
+.PHONY : Lista4.Exercicio12/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio4
+
+# Build rule for target.
+Lista5.Exercicio4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio4
+.PHONY : Lista5.Exercicio4
+
+# fast build rule for target.
+Lista5.Exercicio4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio4.dir\build.make CMakeFiles/Lista5.Exercicio4.dir/build
+.PHONY : Lista5.Exercicio4/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio7
+
+# Build rule for target.
+Lista5.Exercicio7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio7
+.PHONY : Lista5.Exercicio7
+
+# fast build rule for target.
+Lista5.Exercicio7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio7.dir\build.make CMakeFiles/Lista5.Exercicio7.dir/build
+.PHONY : Lista5.Exercicio7/fast
+
+#=============================================================================
+# Target rules for targets named Lista6.Exercicio3
+
+# Build rule for target.
+Lista6.Exercicio3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista6.Exercicio3
+.PHONY : Lista6.Exercicio3
+
+# fast build rule for target.
+Lista6.Exercicio3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio3.dir\build.make CMakeFiles/Lista6.Exercicio3.dir/build
+.PHONY : Lista6.Exercicio3/fast
+
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio6
+
+# Build rule for target.
+Lista4.Exercicio6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio6
+.PHONY : Lista4.Exercicio6
+
+# fast build rule for target.
+Lista4.Exercicio6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio6.dir\build.make CMakeFiles/Lista4.Exercicio6.dir/build
+.PHONY : Lista4.Exercicio6/fast
+
+#=============================================================================
+# Target rules for targets named Lista6.Exercicio7
+
+# Build rule for target.
+Lista6.Exercicio7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista6.Exercicio7
+.PHONY : Lista6.Exercicio7
+
+# fast build rule for target.
+Lista6.Exercicio7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio7.dir\build.make CMakeFiles/Lista6.Exercicio7.dir/build
+.PHONY : Lista6.Exercicio7/fast
+
+#=============================================================================
+# Target rules for targets named Lista6.Exercicio8
+
+# Build rule for target.
+Lista6.Exercicio8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista6.Exercicio8
+.PHONY : Lista6.Exercicio8
+
+# fast build rule for target.
+Lista6.Exercicio8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio8.dir\build.make CMakeFiles/Lista6.Exercicio8.dir/build
+.PHONY : Lista6.Exercicio8/fast
+
+#=============================================================================
+# Target rules for targets named Lista3.Exercicio14
+
+# Build rule for target.
+Lista3.Exercicio14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista3.Exercicio14
+.PHONY : Lista3.Exercicio14
+
+# fast build rule for target.
+Lista3.Exercicio14/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio14.dir\build.make CMakeFiles/Lista3.Exercicio14.dir/build
+.PHONY : Lista3.Exercicio14/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio10
+
+# Build rule for target.
+Lista5.Exercicio10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio10
+.PHONY : Lista5.Exercicio10
+
+# fast build rule for target.
+Lista5.Exercicio10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio10.dir\build.make CMakeFiles/Lista5.Exercicio10.dir/build
+.PHONY : Lista5.Exercicio10/fast
 
 # target to build an object file
-lista_2/Lista2.Exercicio1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista2.Exercicio1.dir\build.make CMakeFiles/Lista2.Exercicio1.dir/lista_2/Lista2.Exercicio1.c.obj
-.PHONY : lista_2/Lista2.Exercicio1.c.obj
-
-lista_2/Lista2.Exercicio1.i: lista_2/Lista2.Exercicio1.c.i
-
-.PHONY : lista_2/Lista2.Exercicio1.i
+lista_3/Lista3.Exercicio14.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio14.dir\build.make CMakeFiles/Lista3.Exercicio14.dir/lista_3/Lista3.Exercicio14.obj
+.PHONY : lista_3/Lista3.Exercicio14.obj
 
 # target to preprocess a source file
-lista_2/Lista2.Exercicio1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista2.Exercicio1.dir\build.make CMakeFiles/Lista2.Exercicio1.dir/lista_2/Lista2.Exercicio1.c.i
-.PHONY : lista_2/Lista2.Exercicio1.c.i
-
-lista_2/Lista2.Exercicio1.s: lista_2/Lista2.Exercicio1.c.s
-
-.PHONY : lista_2/Lista2.Exercicio1.s
+lista_3/Lista3.Exercicio14.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio14.dir\build.make CMakeFiles/Lista3.Exercicio14.dir/lista_3/Lista3.Exercicio14.i
+.PHONY : lista_3/Lista3.Exercicio14.i
 
 # target to generate assembly for a file
-lista_2/Lista2.Exercicio1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista2.Exercicio1.dir\build.make CMakeFiles/Lista2.Exercicio1.dir/lista_2/Lista2.Exercicio1.c.s
-.PHONY : lista_2/Lista2.Exercicio1.c.s
-
-lista_3/Lista3.Exercicio2.obj: lista_3/Lista3.Exercicio2.c.obj
-
-.PHONY : lista_3/Lista3.Exercicio2.obj
+lista_3/Lista3.Exercicio14.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio14.dir\build.make CMakeFiles/Lista3.Exercicio14.dir/lista_3/Lista3.Exercicio14.s
+.PHONY : lista_3/Lista3.Exercicio14.s
 
 # target to build an object file
-lista_3/Lista3.Exercicio2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio2.dir\build.make CMakeFiles/Lista3.Exercicio2.dir/lista_3/Lista3.Exercicio2.c.obj
-.PHONY : lista_3/Lista3.Exercicio2.c.obj
-
-lista_3/Lista3.Exercicio2.i: lista_3/Lista3.Exercicio2.c.i
-
-.PHONY : lista_3/Lista3.Exercicio2.i
+lista_4/Lista4.Exercicio1.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio1.dir\build.make CMakeFiles/Lista4.Exercicio1.dir/lista_4/Lista4.Exercicio1.obj
+.PHONY : lista_4/Lista4.Exercicio1.obj
 
 # target to preprocess a source file
-lista_3/Lista3.Exercicio2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio2.dir\build.make CMakeFiles/Lista3.Exercicio2.dir/lista_3/Lista3.Exercicio2.c.i
-.PHONY : lista_3/Lista3.Exercicio2.c.i
-
-lista_3/Lista3.Exercicio2.s: lista_3/Lista3.Exercicio2.c.s
-
-.PHONY : lista_3/Lista3.Exercicio2.s
+lista_4/Lista4.Exercicio1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio1.dir\build.make CMakeFiles/Lista4.Exercicio1.dir/lista_4/Lista4.Exercicio1.i
+.PHONY : lista_4/Lista4.Exercicio1.i
 
 # target to generate assembly for a file
-lista_3/Lista3.Exercicio2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio2.dir\build.make CMakeFiles/Lista3.Exercicio2.dir/lista_3/Lista3.Exercicio2.c.s
-.PHONY : lista_3/Lista3.Exercicio2.c.s
-
-lista_4/ex01.obj: lista_4/ex01.c.obj
-
-.PHONY : lista_4/ex01.obj
+lista_4/Lista4.Exercicio1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio1.dir\build.make CMakeFiles/Lista4.Exercicio1.dir/lista_4/Lista4.Exercicio1.s
+.PHONY : lista_4/Lista4.Exercicio1.s
 
 # target to build an object file
-lista_4/ex01.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/lista_4/ex01.c.obj
-.PHONY : lista_4/ex01.c.obj
-
-lista_4/ex01.i: lista_4/ex01.c.i
-
-.PHONY : lista_4/ex01.i
+lista_4/Lista4.Exercicio10.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio10.dir\build.make CMakeFiles/Lista4.Exercicio10.dir/lista_4/Lista4.Exercicio10.obj
+.PHONY : lista_4/Lista4.Exercicio10.obj
 
 # target to preprocess a source file
-lista_4/ex01.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/lista_4/ex01.c.i
-.PHONY : lista_4/ex01.c.i
-
-lista_4/ex01.s: lista_4/ex01.c.s
-
-.PHONY : lista_4/ex01.s
+lista_4/Lista4.Exercicio10.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio10.dir\build.make CMakeFiles/Lista4.Exercicio10.dir/lista_4/Lista4.Exercicio10.i
+.PHONY : lista_4/Lista4.Exercicio10.i
 
 # target to generate assembly for a file
-lista_4/ex01.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ex01.dir\build.make CMakeFiles/ex01.dir/lista_4/ex01.c.s
-.PHONY : lista_4/ex01.c.s
+lista_4/Lista4.Exercicio10.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio10.dir\build.make CMakeFiles/Lista4.Exercicio10.dir/lista_4/Lista4.Exercicio10.s
+.PHONY : lista_4/Lista4.Exercicio10.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio11.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio11.dir\build.make CMakeFiles/Lista4.Exercicio11.dir/lista_4/Lista4.Exercicio11.obj
+.PHONY : lista_4/Lista4.Exercicio11.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio11.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio11.dir\build.make CMakeFiles/Lista4.Exercicio11.dir/lista_4/Lista4.Exercicio11.i
+.PHONY : lista_4/Lista4.Exercicio11.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio11.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio11.dir\build.make CMakeFiles/Lista4.Exercicio11.dir/lista_4/Lista4.Exercicio11.s
+.PHONY : lista_4/Lista4.Exercicio11.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio12.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio12.dir\build.make CMakeFiles/Lista4.Exercicio12.dir/lista_4/Lista4.Exercicio12.obj
+.PHONY : lista_4/Lista4.Exercicio12.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio12.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio12.dir\build.make CMakeFiles/Lista4.Exercicio12.dir/lista_4/Lista4.Exercicio12.i
+.PHONY : lista_4/Lista4.Exercicio12.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio12.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio12.dir\build.make CMakeFiles/Lista4.Exercicio12.dir/lista_4/Lista4.Exercicio12.s
+.PHONY : lista_4/Lista4.Exercicio12.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio2.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio2.dir\build.make CMakeFiles/Lista4.Exercicio2.dir/lista_4/Lista4.Exercicio2.obj
+.PHONY : lista_4/Lista4.Exercicio2.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio2.dir\build.make CMakeFiles/Lista4.Exercicio2.dir/lista_4/Lista4.Exercicio2.i
+.PHONY : lista_4/Lista4.Exercicio2.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio2.dir\build.make CMakeFiles/Lista4.Exercicio2.dir/lista_4/Lista4.Exercicio2.s
+.PHONY : lista_4/Lista4.Exercicio2.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio3.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio3.dir\build.make CMakeFiles/Lista4.Exercicio3.dir/lista_4/Lista4.Exercicio3.obj
+.PHONY : lista_4/Lista4.Exercicio3.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio3.dir\build.make CMakeFiles/Lista4.Exercicio3.dir/lista_4/Lista4.Exercicio3.i
+.PHONY : lista_4/Lista4.Exercicio3.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio3.dir\build.make CMakeFiles/Lista4.Exercicio3.dir/lista_4/Lista4.Exercicio3.s
+.PHONY : lista_4/Lista4.Exercicio3.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio4.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio4.dir\build.make CMakeFiles/Lista4.Exercicio4.dir/lista_4/Lista4.Exercicio4.obj
+.PHONY : lista_4/Lista4.Exercicio4.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio4.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio4.dir\build.make CMakeFiles/Lista4.Exercicio4.dir/lista_4/Lista4.Exercicio4.i
+.PHONY : lista_4/Lista4.Exercicio4.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio4.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio4.dir\build.make CMakeFiles/Lista4.Exercicio4.dir/lista_4/Lista4.Exercicio4.s
+.PHONY : lista_4/Lista4.Exercicio4.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio5.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio5.dir\build.make CMakeFiles/Lista4.Exercicio5.dir/lista_4/Lista4.Exercicio5.obj
+.PHONY : lista_4/Lista4.Exercicio5.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio5.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio5.dir\build.make CMakeFiles/Lista4.Exercicio5.dir/lista_4/Lista4.Exercicio5.i
+.PHONY : lista_4/Lista4.Exercicio5.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio5.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio5.dir\build.make CMakeFiles/Lista4.Exercicio5.dir/lista_4/Lista4.Exercicio5.s
+.PHONY : lista_4/Lista4.Exercicio5.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio6.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio6.dir\build.make CMakeFiles/Lista4.Exercicio6.dir/lista_4/Lista4.Exercicio6.obj
+.PHONY : lista_4/Lista4.Exercicio6.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio6.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio6.dir\build.make CMakeFiles/Lista4.Exercicio6.dir/lista_4/Lista4.Exercicio6.i
+.PHONY : lista_4/Lista4.Exercicio6.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio6.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio6.dir\build.make CMakeFiles/Lista4.Exercicio6.dir/lista_4/Lista4.Exercicio6.s
+.PHONY : lista_4/Lista4.Exercicio6.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio7.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio7.dir\build.make CMakeFiles/Lista4.Exercicio7.dir/lista_4/Lista4.Exercicio7.obj
+.PHONY : lista_4/Lista4.Exercicio7.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio7.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio7.dir\build.make CMakeFiles/Lista4.Exercicio7.dir/lista_4/Lista4.Exercicio7.i
+.PHONY : lista_4/Lista4.Exercicio7.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio7.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio7.dir\build.make CMakeFiles/Lista4.Exercicio7.dir/lista_4/Lista4.Exercicio7.s
+.PHONY : lista_4/Lista4.Exercicio7.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio8.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio8.dir\build.make CMakeFiles/Lista4.Exercicio8.dir/lista_4/Lista4.Exercicio8.obj
+.PHONY : lista_4/Lista4.Exercicio8.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio8.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio8.dir\build.make CMakeFiles/Lista4.Exercicio8.dir/lista_4/Lista4.Exercicio8.i
+.PHONY : lista_4/Lista4.Exercicio8.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio8.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio8.dir\build.make CMakeFiles/Lista4.Exercicio8.dir/lista_4/Lista4.Exercicio8.s
+.PHONY : lista_4/Lista4.Exercicio8.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio9.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio9.dir\build.make CMakeFiles/Lista4.Exercicio9.dir/lista_4/Lista4.Exercicio9.obj
+.PHONY : lista_4/Lista4.Exercicio9.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio9.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio9.dir\build.make CMakeFiles/Lista4.Exercicio9.dir/lista_4/Lista4.Exercicio9.i
+.PHONY : lista_4/Lista4.Exercicio9.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio9.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio9.dir\build.make CMakeFiles/Lista4.Exercicio9.dir/lista_4/Lista4.Exercicio9.s
+.PHONY : lista_4/Lista4.Exercicio9.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio1.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio1.dir\build.make CMakeFiles/Lista5.Exercicio1.dir/lista_5/Lista5.Exercicio1.obj
+.PHONY : lista_5/Lista5.Exercicio1.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio1.dir\build.make CMakeFiles/Lista5.Exercicio1.dir/lista_5/Lista5.Exercicio1.i
+.PHONY : lista_5/Lista5.Exercicio1.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio1.dir\build.make CMakeFiles/Lista5.Exercicio1.dir/lista_5/Lista5.Exercicio1.s
+.PHONY : lista_5/Lista5.Exercicio1.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio10.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio10.dir\build.make CMakeFiles/Lista5.Exercicio10.dir/lista_5/Lista5.Exercicio10.obj
+.PHONY : lista_5/Lista5.Exercicio10.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio10.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio10.dir\build.make CMakeFiles/Lista5.Exercicio10.dir/lista_5/Lista5.Exercicio10.i
+.PHONY : lista_5/Lista5.Exercicio10.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio10.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio10.dir\build.make CMakeFiles/Lista5.Exercicio10.dir/lista_5/Lista5.Exercicio10.s
+.PHONY : lista_5/Lista5.Exercicio10.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio13.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/lista_5/Lista5.Exercicio13.obj
+.PHONY : lista_5/Lista5.Exercicio13.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio13.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/lista_5/Lista5.Exercicio13.i
+.PHONY : lista_5/Lista5.Exercicio13.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio13.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/lista_5/Lista5.Exercicio13.s
+.PHONY : lista_5/Lista5.Exercicio13.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio2.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio2.dir\build.make CMakeFiles/Lista5.Exercicio2.dir/lista_5/Lista5.Exercicio2.obj
+.PHONY : lista_5/Lista5.Exercicio2.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio2.dir\build.make CMakeFiles/Lista5.Exercicio2.dir/lista_5/Lista5.Exercicio2.i
+.PHONY : lista_5/Lista5.Exercicio2.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio2.dir\build.make CMakeFiles/Lista5.Exercicio2.dir/lista_5/Lista5.Exercicio2.s
+.PHONY : lista_5/Lista5.Exercicio2.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio3.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio3.dir\build.make CMakeFiles/Lista5.Exercicio3.dir/lista_5/Lista5.Exercicio3.obj
+.PHONY : lista_5/Lista5.Exercicio3.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio3.dir\build.make CMakeFiles/Lista5.Exercicio3.dir/lista_5/Lista5.Exercicio3.i
+.PHONY : lista_5/Lista5.Exercicio3.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio3.dir\build.make CMakeFiles/Lista5.Exercicio3.dir/lista_5/Lista5.Exercicio3.s
+.PHONY : lista_5/Lista5.Exercicio3.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio4.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio4.dir\build.make CMakeFiles/Lista5.Exercicio4.dir/lista_5/Lista5.Exercicio4.obj
+.PHONY : lista_5/Lista5.Exercicio4.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio4.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio4.dir\build.make CMakeFiles/Lista5.Exercicio4.dir/lista_5/Lista5.Exercicio4.i
+.PHONY : lista_5/Lista5.Exercicio4.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio4.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio4.dir\build.make CMakeFiles/Lista5.Exercicio4.dir/lista_5/Lista5.Exercicio4.s
+.PHONY : lista_5/Lista5.Exercicio4.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio5.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio5.dir\build.make CMakeFiles/Lista5.Exercicio5.dir/lista_5/Lista5.Exercicio5.obj
+.PHONY : lista_5/Lista5.Exercicio5.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio5.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio5.dir\build.make CMakeFiles/Lista5.Exercicio5.dir/lista_5/Lista5.Exercicio5.i
+.PHONY : lista_5/Lista5.Exercicio5.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio5.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio5.dir\build.make CMakeFiles/Lista5.Exercicio5.dir/lista_5/Lista5.Exercicio5.s
+.PHONY : lista_5/Lista5.Exercicio5.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio7.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio7.dir\build.make CMakeFiles/Lista5.Exercicio7.dir/lista_5/Lista5.Exercicio7.obj
+.PHONY : lista_5/Lista5.Exercicio7.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio7.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio7.dir\build.make CMakeFiles/Lista5.Exercicio7.dir/lista_5/Lista5.Exercicio7.i
+.PHONY : lista_5/Lista5.Exercicio7.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio7.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio7.dir\build.make CMakeFiles/Lista5.Exercicio7.dir/lista_5/Lista5.Exercicio7.s
+.PHONY : lista_5/Lista5.Exercicio7.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio8.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio8.dir\build.make CMakeFiles/Lista5.Exercicio8.dir/lista_5/Lista5.Exercicio8.obj
+.PHONY : lista_5/Lista5.Exercicio8.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio8.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio8.dir\build.make CMakeFiles/Lista5.Exercicio8.dir/lista_5/Lista5.Exercicio8.i
+.PHONY : lista_5/Lista5.Exercicio8.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio8.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio8.dir\build.make CMakeFiles/Lista5.Exercicio8.dir/lista_5/Lista5.Exercicio8.s
+.PHONY : lista_5/Lista5.Exercicio8.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio9.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio9.dir\build.make CMakeFiles/Lista5.Exercicio9.dir/lista_5/Lista5.Exercicio9.obj
+.PHONY : lista_5/Lista5.Exercicio9.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio9.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio9.dir\build.make CMakeFiles/Lista5.Exercicio9.dir/lista_5/Lista5.Exercicio9.i
+.PHONY : lista_5/Lista5.Exercicio9.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio9.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio9.dir\build.make CMakeFiles/Lista5.Exercicio9.dir/lista_5/Lista5.Exercicio9.s
+.PHONY : lista_5/Lista5.Exercicio9.s
+
+# target to build an object file
+lista_6/Lista6.Exercicio1.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio1.dir\build.make CMakeFiles/Lista6.Exercicio1.dir/lista_6/Lista6.Exercicio1.obj
+.PHONY : lista_6/Lista6.Exercicio1.obj
+
+# target to preprocess a source file
+lista_6/Lista6.Exercicio1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio1.dir\build.make CMakeFiles/Lista6.Exercicio1.dir/lista_6/Lista6.Exercicio1.i
+.PHONY : lista_6/Lista6.Exercicio1.i
+
+# target to generate assembly for a file
+lista_6/Lista6.Exercicio1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio1.dir\build.make CMakeFiles/Lista6.Exercicio1.dir/lista_6/Lista6.Exercicio1.s
+.PHONY : lista_6/Lista6.Exercicio1.s
+
+# target to build an object file
+lista_6/Lista6.Exercicio2.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio2.dir\build.make CMakeFiles/Lista6.Exercicio2.dir/lista_6/Lista6.Exercicio2.obj
+.PHONY : lista_6/Lista6.Exercicio2.obj
+
+# target to preprocess a source file
+lista_6/Lista6.Exercicio2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio2.dir\build.make CMakeFiles/Lista6.Exercicio2.dir/lista_6/Lista6.Exercicio2.i
+.PHONY : lista_6/Lista6.Exercicio2.i
+
+# target to generate assembly for a file
+lista_6/Lista6.Exercicio2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio2.dir\build.make CMakeFiles/Lista6.Exercicio2.dir/lista_6/Lista6.Exercicio2.s
+.PHONY : lista_6/Lista6.Exercicio2.s
+
+# target to build an object file
+lista_6/Lista6.Exercicio3.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio3.dir\build.make CMakeFiles/Lista6.Exercicio3.dir/lista_6/Lista6.Exercicio3.obj
+.PHONY : lista_6/Lista6.Exercicio3.obj
+
+# target to preprocess a source file
+lista_6/Lista6.Exercicio3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio3.dir\build.make CMakeFiles/Lista6.Exercicio3.dir/lista_6/Lista6.Exercicio3.i
+.PHONY : lista_6/Lista6.Exercicio3.i
+
+# target to generate assembly for a file
+lista_6/Lista6.Exercicio3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio3.dir\build.make CMakeFiles/Lista6.Exercicio3.dir/lista_6/Lista6.Exercicio3.s
+.PHONY : lista_6/Lista6.Exercicio3.s
+
+# target to build an object file
+lista_6/Lista6.Exercicio6.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio6.dir\build.make CMakeFiles/Lista6.Exercicio6.dir/lista_6/Lista6.Exercicio6.obj
+.PHONY : lista_6/Lista6.Exercicio6.obj
+
+# target to preprocess a source file
+lista_6/Lista6.Exercicio6.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio6.dir\build.make CMakeFiles/Lista6.Exercicio6.dir/lista_6/Lista6.Exercicio6.i
+.PHONY : lista_6/Lista6.Exercicio6.i
+
+# target to generate assembly for a file
+lista_6/Lista6.Exercicio6.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio6.dir\build.make CMakeFiles/Lista6.Exercicio6.dir/lista_6/Lista6.Exercicio6.s
+.PHONY : lista_6/Lista6.Exercicio6.s
+
+# target to build an object file
+lista_6/Lista6.Exercicio7.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio7.dir\build.make CMakeFiles/Lista6.Exercicio7.dir/lista_6/Lista6.Exercicio7.obj
+.PHONY : lista_6/Lista6.Exercicio7.obj
+
+# target to preprocess a source file
+lista_6/Lista6.Exercicio7.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio7.dir\build.make CMakeFiles/Lista6.Exercicio7.dir/lista_6/Lista6.Exercicio7.i
+.PHONY : lista_6/Lista6.Exercicio7.i
+
+# target to generate assembly for a file
+lista_6/Lista6.Exercicio7.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio7.dir\build.make CMakeFiles/Lista6.Exercicio7.dir/lista_6/Lista6.Exercicio7.s
+.PHONY : lista_6/Lista6.Exercicio7.s
+
+# target to build an object file
+lista_6/Lista6.Exercicio8.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio8.dir\build.make CMakeFiles/Lista6.Exercicio8.dir/lista_6/Lista6.Exercicio8.obj
+.PHONY : lista_6/Lista6.Exercicio8.obj
+
+# target to preprocess a source file
+lista_6/Lista6.Exercicio8.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio8.dir\build.make CMakeFiles/Lista6.Exercicio8.dir/lista_6/Lista6.Exercicio8.i
+.PHONY : lista_6/Lista6.Exercicio8.i
+
+# target to generate assembly for a file
+lista_6/Lista6.Exercicio8.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio8.dir\build.make CMakeFiles/Lista6.Exercicio8.dir/lista_6/Lista6.Exercicio8.s
+.PHONY : lista_6/Lista6.Exercicio8.s
+
+# target to build an object file
+teste.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/teste.obj
+.PHONY : teste.obj
+
+# target to preprocess a source file
+teste.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/teste.i
+.PHONY : teste.i
+
+# target to generate assembly for a file
+teste.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/teste.s
+.PHONY : teste.s
 
 # Help Target
 help:
@@ -257,18 +977,126 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lista2.Exercicio1
-	@echo ... Lista3.Exercicio2
-	@echo ... ex01
-	@echo ... lista_2/Lista2.Exercicio1.obj
-	@echo ... lista_2/Lista2.Exercicio1.i
-	@echo ... lista_2/Lista2.Exercicio1.s
-	@echo ... lista_3/Lista3.Exercicio2.obj
-	@echo ... lista_3/Lista3.Exercicio2.i
-	@echo ... lista_3/Lista3.Exercicio2.s
-	@echo ... lista_4/ex01.obj
-	@echo ... lista_4/ex01.i
-	@echo ... lista_4/ex01.s
+	@echo ... Lista3.Exercicio14
+	@echo ... Lista4.Exercicio1
+	@echo ... Lista4.Exercicio10
+	@echo ... Lista4.Exercicio11
+	@echo ... Lista4.Exercicio12
+	@echo ... Lista4.Exercicio2
+	@echo ... Lista4.Exercicio3
+	@echo ... Lista4.Exercicio4
+	@echo ... Lista4.Exercicio5
+	@echo ... Lista4.Exercicio6
+	@echo ... Lista4.Exercicio7
+	@echo ... Lista4.Exercicio8
+	@echo ... Lista4.Exercicio9
+	@echo ... Lista5.Exercicio1
+	@echo ... Lista5.Exercicio10
+	@echo ... Lista5.Exercicio13
+	@echo ... Lista5.Exercicio2
+	@echo ... Lista5.Exercicio3
+	@echo ... Lista5.Exercicio4
+	@echo ... Lista5.Exercicio5
+	@echo ... Lista5.Exercicio7
+	@echo ... Lista5.Exercicio8
+	@echo ... Lista5.Exercicio9
+	@echo ... Lista6.Exercicio1
+	@echo ... Lista6.Exercicio2
+	@echo ... Lista6.Exercicio3
+	@echo ... Lista6.Exercicio6
+	@echo ... Lista6.Exercicio7
+	@echo ... Lista6.Exercicio8
+	@echo ... teste
+	@echo ... lista_3/Lista3.Exercicio14.obj
+	@echo ... lista_3/Lista3.Exercicio14.i
+	@echo ... lista_3/Lista3.Exercicio14.s
+	@echo ... lista_4/Lista4.Exercicio1.obj
+	@echo ... lista_4/Lista4.Exercicio1.i
+	@echo ... lista_4/Lista4.Exercicio1.s
+	@echo ... lista_4/Lista4.Exercicio10.obj
+	@echo ... lista_4/Lista4.Exercicio10.i
+	@echo ... lista_4/Lista4.Exercicio10.s
+	@echo ... lista_4/Lista4.Exercicio11.obj
+	@echo ... lista_4/Lista4.Exercicio11.i
+	@echo ... lista_4/Lista4.Exercicio11.s
+	@echo ... lista_4/Lista4.Exercicio12.obj
+	@echo ... lista_4/Lista4.Exercicio12.i
+	@echo ... lista_4/Lista4.Exercicio12.s
+	@echo ... lista_4/Lista4.Exercicio2.obj
+	@echo ... lista_4/Lista4.Exercicio2.i
+	@echo ... lista_4/Lista4.Exercicio2.s
+	@echo ... lista_4/Lista4.Exercicio3.obj
+	@echo ... lista_4/Lista4.Exercicio3.i
+	@echo ... lista_4/Lista4.Exercicio3.s
+	@echo ... lista_4/Lista4.Exercicio4.obj
+	@echo ... lista_4/Lista4.Exercicio4.i
+	@echo ... lista_4/Lista4.Exercicio4.s
+	@echo ... lista_4/Lista4.Exercicio5.obj
+	@echo ... lista_4/Lista4.Exercicio5.i
+	@echo ... lista_4/Lista4.Exercicio5.s
+	@echo ... lista_4/Lista4.Exercicio6.obj
+	@echo ... lista_4/Lista4.Exercicio6.i
+	@echo ... lista_4/Lista4.Exercicio6.s
+	@echo ... lista_4/Lista4.Exercicio7.obj
+	@echo ... lista_4/Lista4.Exercicio7.i
+	@echo ... lista_4/Lista4.Exercicio7.s
+	@echo ... lista_4/Lista4.Exercicio8.obj
+	@echo ... lista_4/Lista4.Exercicio8.i
+	@echo ... lista_4/Lista4.Exercicio8.s
+	@echo ... lista_4/Lista4.Exercicio9.obj
+	@echo ... lista_4/Lista4.Exercicio9.i
+	@echo ... lista_4/Lista4.Exercicio9.s
+	@echo ... lista_5/Lista5.Exercicio1.obj
+	@echo ... lista_5/Lista5.Exercicio1.i
+	@echo ... lista_5/Lista5.Exercicio1.s
+	@echo ... lista_5/Lista5.Exercicio10.obj
+	@echo ... lista_5/Lista5.Exercicio10.i
+	@echo ... lista_5/Lista5.Exercicio10.s
+	@echo ... lista_5/Lista5.Exercicio13.obj
+	@echo ... lista_5/Lista5.Exercicio13.i
+	@echo ... lista_5/Lista5.Exercicio13.s
+	@echo ... lista_5/Lista5.Exercicio2.obj
+	@echo ... lista_5/Lista5.Exercicio2.i
+	@echo ... lista_5/Lista5.Exercicio2.s
+	@echo ... lista_5/Lista5.Exercicio3.obj
+	@echo ... lista_5/Lista5.Exercicio3.i
+	@echo ... lista_5/Lista5.Exercicio3.s
+	@echo ... lista_5/Lista5.Exercicio4.obj
+	@echo ... lista_5/Lista5.Exercicio4.i
+	@echo ... lista_5/Lista5.Exercicio4.s
+	@echo ... lista_5/Lista5.Exercicio5.obj
+	@echo ... lista_5/Lista5.Exercicio5.i
+	@echo ... lista_5/Lista5.Exercicio5.s
+	@echo ... lista_5/Lista5.Exercicio7.obj
+	@echo ... lista_5/Lista5.Exercicio7.i
+	@echo ... lista_5/Lista5.Exercicio7.s
+	@echo ... lista_5/Lista5.Exercicio8.obj
+	@echo ... lista_5/Lista5.Exercicio8.i
+	@echo ... lista_5/Lista5.Exercicio8.s
+	@echo ... lista_5/Lista5.Exercicio9.obj
+	@echo ... lista_5/Lista5.Exercicio9.i
+	@echo ... lista_5/Lista5.Exercicio9.s
+	@echo ... lista_6/Lista6.Exercicio1.obj
+	@echo ... lista_6/Lista6.Exercicio1.i
+	@echo ... lista_6/Lista6.Exercicio1.s
+	@echo ... lista_6/Lista6.Exercicio2.obj
+	@echo ... lista_6/Lista6.Exercicio2.i
+	@echo ... lista_6/Lista6.Exercicio2.s
+	@echo ... lista_6/Lista6.Exercicio3.obj
+	@echo ... lista_6/Lista6.Exercicio3.i
+	@echo ... lista_6/Lista6.Exercicio3.s
+	@echo ... lista_6/Lista6.Exercicio6.obj
+	@echo ... lista_6/Lista6.Exercicio6.i
+	@echo ... lista_6/Lista6.Exercicio6.s
+	@echo ... lista_6/Lista6.Exercicio7.obj
+	@echo ... lista_6/Lista6.Exercicio7.i
+	@echo ... lista_6/Lista6.Exercicio7.s
+	@echo ... lista_6/Lista6.Exercicio8.obj
+	@echo ... lista_6/Lista6.Exercicio8.i
+	@echo ... lista_6/Lista6.Exercicio8.s
+	@echo ... teste.obj
+	@echo ... teste.i
+	@echo ... teste.s
 .PHONY : help
 
 

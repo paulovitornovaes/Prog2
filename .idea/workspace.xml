@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="Lista2.Exercicio1" />
-      <config projectName="Project" targetName="ex01" />
-      <config projectName="Project" targetName="Lista3.Exercicio2" />
+      <config projectName="Project" targetName="Lista6.Exercicio7" />
+      <config projectName="Project" targetName="Lista6.Exercicio8" />
+      <config projectName="Project" targetName="Lista6.Exercicio6" />
+      <config projectName="Project" targetName="Lista6.Exercicio3" />
+      <config projectName="Project" targetName="Lista6.Exercicio1" />
+      <config projectName="Project" targetName="Lista6.Exercicio2" />
+      <config projectName="Project" targetName="Lista5.Exercicio8" />
+      <config projectName="Project" targetName="Lista5.Exercicio9" />
+      <config projectName="Project" targetName="Lista5.Exercicio4" />
+      <config projectName="Project" targetName="Lista5.Exercicio5" />
+      <config projectName="Project" targetName="Lista5.Exercicio7" />
+      <config projectName="Project" targetName="Lista5.Exercicio1" />
+      <config projectName="Project" targetName="Lista5.Exercicio2" />
+      <config projectName="Project" targetName="teste" />
+      <config projectName="Project" targetName="Lista5.Exercicio3" />
+      <config projectName="Project" targetName="Lista4.Exercicio9" />
+      <config projectName="Project" targetName="Lista4.Exercicio8" />
+      <config projectName="Project" targetName="Lista4.Exercicio7" />
+      <config projectName="Project" targetName="Lista5.Exercicio10" />
+      <config projectName="Project" targetName="Lista4.Exercicio2" />
+      <config projectName="Project" targetName="Lista4.Exercicio11" />
+      <config projectName="Project" targetName="Lista4.Exercicio1" />
+      <config projectName="Project" targetName="Lista4.Exercicio10" />
+      <config projectName="Project" targetName="Lista4.Exercicio12" />
+      <config projectName="Project" targetName="Lista4.Exercicio6" />
+      <config projectName="Project" targetName="Lista3.Exercicio14" />
+      <config projectName="Project" targetName="Lista4.Exercicio5" />
+      <config projectName="Project" targetName="Lista4.Exercicio4" />
+      <config projectName="Project" targetName="Lista4.Exercicio3" />
+      <config projectName="Project" targetName="Lista5.Exercicio13" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -13,7 +43,58 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee6c325-2907-41a9-9f39-b05929ab125d" name="Default Changelist" comment="" />
+    <list default="true" id="1ee6c325-2907-41a9-9f39-b05929ab125d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vitinhogay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio13.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio9.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio13.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_5/Lista5.Exercicio9.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_6/Lista6.Exercicio1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_6/Lista6.Exercicio2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_6/Lista6.Exercicio3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_6/Lista6.Exercicio6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_6/Lista6.Exercicio7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista_6/Lista6.Exercicio8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/lista_4/ex01.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/lista_4/ex01.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lista_4/Lista4.Exercicio1.c" beforeDir="false" afterPath="$PROJECT_DIR$/lista_4/Lista4.Exercicio1.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,41 +120,243 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_without-accents.dic" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex01">
-    <configuration name="Lista2.Exercicio1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista2.Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista2.Exercicio1">
+  <component name="RunManager" selected="CMake Application.Lista6.Exercicio2">
+    <configuration name="Lista3.Exercicio14" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista3.Exercicio14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista3.Exercicio14">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lista3.Exercicio2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista3.Exercicio2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista3.Exercicio2">
+    <configuration name="Lista4.Exercicio1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Lista4.Exercicio10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="ex01">
+    <configuration name="Lista4.Exercicio11" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio11">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista4.Exercicio9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista4.Exercicio9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista4.Exercicio9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio13" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista5.Exercicio9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista5.Exercicio9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista5.Exercicio9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista6.Exercicio1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista6.Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista6.Exercicio1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista6.Exercicio2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="shell" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista6.Exercicio2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista6.Exercicio2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista6.Exercicio3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista6.Exercicio3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista6.Exercicio3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista6.Exercicio6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista6.Exercicio6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista6.Exercicio6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista6.Exercicio7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista6.Exercicio7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista6.Exercicio7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lista6.Exercicio8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Lista6.Exercicio8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Lista6.Exercicio8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="teste" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="teste">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Lista2.Exercicio1" />
-      <item itemvalue="CMake Application.Lista3.Exercicio2" />
-      <item itemvalue="CMake Application.ex01" />
+      <item itemvalue="CMake Application.Lista3.Exercicio14" />
+      <item itemvalue="CMake Application.Lista4.Exercicio1" />
+      <item itemvalue="CMake Application.Lista4.Exercicio10" />
+      <item itemvalue="CMake Application.Lista4.Exercicio11" />
+      <item itemvalue="CMake Application.Lista4.Exercicio12" />
+      <item itemvalue="CMake Application.Lista4.Exercicio2" />
+      <item itemvalue="CMake Application.Lista4.Exercicio3" />
+      <item itemvalue="CMake Application.Lista4.Exercicio4" />
+      <item itemvalue="CMake Application.Lista4.Exercicio5" />
+      <item itemvalue="CMake Application.Lista4.Exercicio6" />
+      <item itemvalue="CMake Application.Lista4.Exercicio7" />
+      <item itemvalue="CMake Application.Lista4.Exercicio8" />
+      <item itemvalue="CMake Application.Lista4.Exercicio9" />
+      <item itemvalue="CMake Application.Lista5.Exercicio1" />
+      <item itemvalue="CMake Application.Lista5.Exercicio10" />
+      <item itemvalue="CMake Application.Lista5.Exercicio13" />
+      <item itemvalue="CMake Application.Lista5.Exercicio2" />
+      <item itemvalue="CMake Application.Lista5.Exercicio3" />
+      <item itemvalue="CMake Application.Lista5.Exercicio4" />
+      <item itemvalue="CMake Application.Lista5.Exercicio5" />
+      <item itemvalue="CMake Application.Lista5.Exercicio7" />
+      <item itemvalue="CMake Application.Lista5.Exercicio8" />
+      <item itemvalue="CMake Application.Lista5.Exercicio9" />
+      <item itemvalue="CMake Application.Lista6.Exercicio1" />
+      <item itemvalue="CMake Application.Lista6.Exercicio2" />
+      <item itemvalue="CMake Application.Lista6.Exercicio3" />
+      <item itemvalue="CMake Application.Lista6.Exercicio6" />
+      <item itemvalue="CMake Application.Lista6.Exercicio7" />
+      <item itemvalue="CMake Application.Lista6.Exercicio8" />
+      <item itemvalue="CMake Application.teste" />
     </list>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="c:\Users\vitinhogay\Documents\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ee6c325-2907-41a9-9f39-b05929ab125d" name="Default Changelist" comment="" />
@@ -86,7 +369,40 @@
       <workItem from="1615230085347" duration="1543000" />
       <workItem from="1615238328876" duration="1161000" />
       <workItem from="1615244255674" duration="4620000" />
-      <workItem from="1615418893653" duration="712000" />
+      <workItem from="1615418893653" duration="6174000" />
+      <workItem from="1615463616064" duration="2524000" />
+      <workItem from="1615750970357" duration="3902000" />
+      <workItem from="1615755415050" duration="4022000" />
+      <workItem from="1615762285342" duration="72000" />
+      <workItem from="1615762381333" duration="8640000" />
+      <workItem from="1615773497510" duration="3498000" />
+      <workItem from="1615817280329" duration="3722000" />
+      <workItem from="1615823611854" duration="6446000" />
+      <workItem from="1615835297449" duration="4321000" />
+      <workItem from="1615853139498" duration="2293000" />
+      <workItem from="1616008138645" duration="718000" />
+      <workItem from="1616032159072" duration="1673000" />
+      <workItem from="1616156079439" duration="738000" />
+      <workItem from="1616156842706" duration="935000" />
+      <workItem from="1616182167691" duration="6210000" />
+      <workItem from="1616196060691" duration="1914000" />
+      <workItem from="1616198004527" duration="3590000" />
+      <workItem from="1616427255035" duration="9217000" />
+      <workItem from="1616458989186" duration="1469000" />
+      <workItem from="1616520929038" duration="13487000" />
+      <workItem from="1616539698947" duration="9054000" />
+      <workItem from="1616585842706" duration="4212000" />
+      <workItem from="1616611515047" duration="7605000" />
+      <workItem from="1616620260574" duration="172000" />
+      <workItem from="1616620447924" duration="7250000" />
+      <workItem from="1616633907461" duration="616000" />
+      <workItem from="1616671828758" duration="4653000" />
+      <workItem from="1616693999803" duration="76000" />
+      <workItem from="1616695760904" duration="15094000" />
+      <workItem from="1616723258000" duration="1486000" />
+      <workItem from="1616760174363" duration="2037000" />
+      <workItem from="1616792592216" duration="330000" />
+      <workItem from="1616866039145" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="finalizado primeira avaliacao">
       <created>1615419496708</created>
@@ -116,5 +432,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finalizado primeira avaliacao" />
     <option name="LAST_COMMIT_MESSAGE" value="finalizado primeira avaliacao" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
