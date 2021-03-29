@@ -12,7 +12,7 @@ int main()
 
     printf("\nVetor: ");
     for (i=0; i<7; i++) {
-        printf("%d[%d] ", v[i], i);
+        printf("[%d] = %d ",i, v[i]);
     }
 
     printf("\n\nDigite um valor para pesquisa: \n");
@@ -27,6 +27,7 @@ int main()
 
     if (verificador == -1) {
         printf("Este valor não se encontra no vetor\n");
+        return -1;
     }
 
 

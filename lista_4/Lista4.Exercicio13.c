@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//NAO FUNCIONA
 int main() {
 
     char texto[50], textoEditado[50], letra;

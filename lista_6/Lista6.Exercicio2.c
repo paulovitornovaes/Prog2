@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <conio.h>
 
+//nao consegui
+
 char *compactar(char *s);
 
 int main(){

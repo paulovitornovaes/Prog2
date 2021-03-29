@@ -8,19 +8,16 @@ int *repeticao(int *vet, int tam, int *n);
 int main() {
     int inteiro;
     int n;
-    int repetidos[MAX];
 
     //Entrada do tamanho do vetor
     printf("Digite um numero inteiro: \n");
     scanf("%d", &inteiro);
-
 
     //Alocação dinamica do vetor
     int *v = (int *) malloc(inteiro * sizeof(int));
     if (v == NULL) {
         printf("Alocação dinamica falhou...");
     }
-
 
     //percorrendo os indices do vetor e colocando apenas numeros de 0 a 10
     printf("Os numeros aceitos para alocacao vao de 0 a 10...\n");
@@ -34,7 +31,16 @@ int main() {
     }
 
 
+
     repeticao(v, 9, &n);
+
+    int *repetidos = (int *) malloc(n * sizeof(int));
+    if (repetidos == NULL){
+        printf("erro de alocacao\n");
+    }
+
+    repetidos = repeticao(v, 9, &n);
+
 
     //imprimindo os valores que se repetiram
     for(int i=0; i<n; i++){
@@ -51,13 +57,7 @@ int main() {
 }
 
 int *repeticao(int *vet, int tam, int *n){
-    int l = 0,key, *repetidos;
-
-    //alocacao dinamica para o novo vetor repetidos
-    repetidos = (int *) malloc(tam * sizeof(int ));
-    if (repetidos == NULL){
-        printf("Erro na alocacao\n");
-    }
+    int l = 0,key, repetidos[MAX];
 
 
     // validando apenas os que se repetem
@@ -77,12 +77,11 @@ int *repeticao(int *vet, int tam, int *n){
             }
         }
     }
-    //parametro n recebeu o tamanho do novo vetor
-    *n = tam;
 
-    return repetidos;
 
+
+
+    *n = l;
+
+    return *repetidos;
 }
-
-
-

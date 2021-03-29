@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//finalizado
+
 float *acima_da_media(int n,float *pvetor, int *ptam);
 
 int main(){
@@ -30,7 +32,7 @@ int main(){
 
 
     //chamada da função e atribuição do valor retornado a uma variavel do main
-    vetresposta = acima_da_media(/*coloque o int n aqui*/ , vetor, ptam);
+    vetresposta = acima_da_media(9 , vetor, ptam);
 
 
     // lendo os valores do vetresposta feito na funçao chamada

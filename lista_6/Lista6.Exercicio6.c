@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define MAX 100
 
-
+//FINALIZADO
 
 int main() {
     int inteiro, l = 0,key, repetidos[MAX];

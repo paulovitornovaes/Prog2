@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ex14.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\ex14.dir/objects.a @CMakeFiles\ex14.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\ex14.dir/objects.a -Wl,--no-whole-archive  -o ex14.exe -Wl,--out-implib,libex14.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ex14.dir\linklibs.rsp

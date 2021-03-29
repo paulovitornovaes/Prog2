@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-D:/vitinhogay/Documents/Prog2/lista_5/Lista5.Exercicio10.c
+C:/Users/flavi/Prog2/lista_5/Lista5.Exercicio10.c
 stdio.h
+-
+conio.h
 -
 string.h
 -

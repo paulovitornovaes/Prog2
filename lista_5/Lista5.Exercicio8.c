@@ -5,8 +5,8 @@
 
 int main(){
     int compara;
-    char palavra1[MAX] = "Paulo";
-    char palavra2[MAX] = "Paulo";
+    char palavra1[MAX] = "casamento";
+    char palavra2[MAX] = "casa";
 
     compara = strcmp(palavra1, palavra2);
 

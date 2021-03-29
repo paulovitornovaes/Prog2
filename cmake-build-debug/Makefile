@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\vitinhogay\Documents\Prog2
+CMAKE_SOURCE_DIR = C:\Users\flavi\Prog2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\vitinhogay\Documents\Prog2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\flavi\Prog2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = D:\vitinhogay\Documents\Prog2\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\flavi\Prog2\cmake-build-debug\CMakeFiles C:\Users\flavi\Prog2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\flavi\Prog2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -338,6 +338,19 @@ Lista5.Exercicio13/fast:
 .PHONY : Lista5.Exercicio13/fast
 
 #=============================================================================
+# Target rules for targets named Lista5.Exercicio12
+
+# Build rule for target.
+Lista5.Exercicio12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio12
+.PHONY : Lista5.Exercicio12
+
+# fast build rule for target.
+Lista5.Exercicio12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/build
+.PHONY : Lista5.Exercicio12/fast
+
+#=============================================================================
 # Target rules for targets named Lista5.Exercicio9
 
 # Build rule for target.
@@ -519,6 +532,32 @@ Lista5.Exercicio10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio10.dir\build.make CMakeFiles/Lista5.Exercicio10.dir/build
 .PHONY : Lista5.Exercicio10/fast
 
+#=============================================================================
+# Target rules for targets named Lista4.Exercicio13
+
+# Build rule for target.
+Lista4.Exercicio13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista4.Exercicio13
+.PHONY : Lista4.Exercicio13
+
+# fast build rule for target.
+Lista4.Exercicio13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio13.dir\build.make CMakeFiles/Lista4.Exercicio13.dir/build
+.PHONY : Lista4.Exercicio13/fast
+
+#=============================================================================
+# Target rules for targets named Lista5.Exercicio11
+
+# Build rule for target.
+Lista5.Exercicio11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio11
+.PHONY : Lista5.Exercicio11
+
+# fast build rule for target.
+Lista5.Exercicio11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio11.dir\build.make CMakeFiles/Lista5.Exercicio11.dir/build
+.PHONY : Lista5.Exercicio11/fast
+
 # target to build an object file
 lista_3/Lista3.Exercicio14.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista3.Exercicio14.dir\build.make CMakeFiles/Lista3.Exercicio14.dir/lista_3/Lista3.Exercicio14.obj
@@ -593,6 +632,21 @@ lista_4/Lista4.Exercicio12.i:
 lista_4/Lista4.Exercicio12.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio12.dir\build.make CMakeFiles/Lista4.Exercicio12.dir/lista_4/Lista4.Exercicio12.s
 .PHONY : lista_4/Lista4.Exercicio12.s
+
+# target to build an object file
+lista_4/Lista4.Exercicio13.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio13.dir\build.make CMakeFiles/Lista4.Exercicio13.dir/lista_4/Lista4.Exercicio13.obj
+.PHONY : lista_4/Lista4.Exercicio13.obj
+
+# target to preprocess a source file
+lista_4/Lista4.Exercicio13.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio13.dir\build.make CMakeFiles/Lista4.Exercicio13.dir/lista_4/Lista4.Exercicio13.i
+.PHONY : lista_4/Lista4.Exercicio13.i
+
+# target to generate assembly for a file
+lista_4/Lista4.Exercicio13.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista4.Exercicio13.dir\build.make CMakeFiles/Lista4.Exercicio13.dir/lista_4/Lista4.Exercicio13.s
+.PHONY : lista_4/Lista4.Exercicio13.s
 
 # target to build an object file
 lista_4/Lista4.Exercicio2.obj:
@@ -743,6 +797,36 @@ lista_5/Lista5.Exercicio10.i:
 lista_5/Lista5.Exercicio10.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio10.dir\build.make CMakeFiles/Lista5.Exercicio10.dir/lista_5/Lista5.Exercicio10.s
 .PHONY : lista_5/Lista5.Exercicio10.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio11.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio11.dir\build.make CMakeFiles/Lista5.Exercicio11.dir/lista_5/Lista5.Exercicio11.obj
+.PHONY : lista_5/Lista5.Exercicio11.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio11.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio11.dir\build.make CMakeFiles/Lista5.Exercicio11.dir/lista_5/Lista5.Exercicio11.i
+.PHONY : lista_5/Lista5.Exercicio11.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio11.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio11.dir\build.make CMakeFiles/Lista5.Exercicio11.dir/lista_5/Lista5.Exercicio11.s
+.PHONY : lista_5/Lista5.Exercicio11.s
+
+# target to build an object file
+lista_5/Lista5.Exercicio12.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/lista_5/Lista5.Exercicio12.obj
+.PHONY : lista_5/Lista5.Exercicio12.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio12.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/lista_5/Lista5.Exercicio12.i
+.PHONY : lista_5/Lista5.Exercicio12.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio12.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/lista_5/Lista5.Exercicio12.s
+.PHONY : lista_5/Lista5.Exercicio12.s
 
 # target to build an object file
 lista_5/Lista5.Exercicio13.obj:
@@ -982,6 +1066,7 @@ help:
 	@echo ... Lista4.Exercicio10
 	@echo ... Lista4.Exercicio11
 	@echo ... Lista4.Exercicio12
+	@echo ... Lista4.Exercicio13
 	@echo ... Lista4.Exercicio2
 	@echo ... Lista4.Exercicio3
 	@echo ... Lista4.Exercicio4
@@ -992,6 +1077,8 @@ help:
 	@echo ... Lista4.Exercicio9
 	@echo ... Lista5.Exercicio1
 	@echo ... Lista5.Exercicio10
+	@echo ... Lista5.Exercicio11
+	@echo ... Lista5.Exercicio12
 	@echo ... Lista5.Exercicio13
 	@echo ... Lista5.Exercicio2
 	@echo ... Lista5.Exercicio3
@@ -1022,6 +1109,9 @@ help:
 	@echo ... lista_4/Lista4.Exercicio12.obj
 	@echo ... lista_4/Lista4.Exercicio12.i
 	@echo ... lista_4/Lista4.Exercicio12.s
+	@echo ... lista_4/Lista4.Exercicio13.obj
+	@echo ... lista_4/Lista4.Exercicio13.i
+	@echo ... lista_4/Lista4.Exercicio13.s
 	@echo ... lista_4/Lista4.Exercicio2.obj
 	@echo ... lista_4/Lista4.Exercicio2.i
 	@echo ... lista_4/Lista4.Exercicio2.s
@@ -1052,6 +1142,12 @@ help:
 	@echo ... lista_5/Lista5.Exercicio10.obj
 	@echo ... lista_5/Lista5.Exercicio10.i
 	@echo ... lista_5/Lista5.Exercicio10.s
+	@echo ... lista_5/Lista5.Exercicio11.obj
+	@echo ... lista_5/Lista5.Exercicio11.i
+	@echo ... lista_5/Lista5.Exercicio11.s
+	@echo ... lista_5/Lista5.Exercicio12.obj
+	@echo ... lista_5/Lista5.Exercicio12.i
+	@echo ... lista_5/Lista5.Exercicio12.s
 	@echo ... lista_5/Lista5.Exercicio13.obj
 	@echo ... lista_5/Lista5.Exercicio13.i
 	@echo ... lista_5/Lista5.Exercicio13.s
