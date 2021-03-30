@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/vitinhogay/Documents/Prog2/lista_4/Lista4.Exercicio11.c
+C:/Users/flavi/Prog2/lista_4/Lista4.Exercicio11.c
 stdio.h
+-
+stdlib.h
 -
 

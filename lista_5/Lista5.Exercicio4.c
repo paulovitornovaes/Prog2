@@ -11,5 +11,5 @@ int main(){
         contador++;
     }
     printf("Ultima letra da palavra = [%c] \n", palavra[contador - 1]);
-    printf("%d letras na palavra!\n", contador);
+    printf("%d letras no vetor palavra!\n", contador);
 }

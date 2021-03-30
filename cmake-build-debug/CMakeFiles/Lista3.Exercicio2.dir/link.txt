@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Lista3.Exercicio2.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Lista3.Exercicio2.dir/objects.a @CMakeFiles\Lista3.Exercicio2.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Lista3.Exercicio2.dir/objects.a -Wl,--no-whole-archive  -o Lista3.Exercicio2.exe -Wl,--out-implib,libLista3.Exercicio2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lista3.Exercicio2.dir\linklibs.rsp
