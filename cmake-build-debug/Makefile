@@ -338,6 +338,19 @@ Lista5.Exercicio13/fast:
 .PHONY : Lista5.Exercicio13/fast
 
 #=============================================================================
+# Target rules for targets named Lista5.Exercicio12
+
+# Build rule for target.
+Lista5.Exercicio12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista5.Exercicio12
+.PHONY : Lista5.Exercicio12
+
+# fast build rule for target.
+Lista5.Exercicio12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/build
+.PHONY : Lista5.Exercicio12/fast
+
+#=============================================================================
 # Target rules for targets named Lista5.Exercicio9
 
 # Build rule for target.
@@ -745,6 +758,21 @@ lista_5/Lista5.Exercicio10.s:
 .PHONY : lista_5/Lista5.Exercicio10.s
 
 # target to build an object file
+lista_5/Lista5.Exercicio12.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/lista_5/Lista5.Exercicio12.obj
+.PHONY : lista_5/Lista5.Exercicio12.obj
+
+# target to preprocess a source file
+lista_5/Lista5.Exercicio12.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/lista_5/Lista5.Exercicio12.i
+.PHONY : lista_5/Lista5.Exercicio12.i
+
+# target to generate assembly for a file
+lista_5/Lista5.Exercicio12.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/lista_5/Lista5.Exercicio12.s
+.PHONY : lista_5/Lista5.Exercicio12.s
+
+# target to build an object file
 lista_5/Lista5.Exercicio13.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/lista_5/Lista5.Exercicio13.obj
 .PHONY : lista_5/Lista5.Exercicio13.obj
@@ -992,6 +1020,7 @@ help:
 	@echo ... Lista4.Exercicio9
 	@echo ... Lista5.Exercicio1
 	@echo ... Lista5.Exercicio10
+	@echo ... Lista5.Exercicio12
 	@echo ... Lista5.Exercicio13
 	@echo ... Lista5.Exercicio2
 	@echo ... Lista5.Exercicio3
@@ -1052,6 +1081,9 @@ help:
 	@echo ... lista_5/Lista5.Exercicio10.obj
 	@echo ... lista_5/Lista5.Exercicio10.i
 	@echo ... lista_5/Lista5.Exercicio10.s
+	@echo ... lista_5/Lista5.Exercicio12.obj
+	@echo ... lista_5/Lista5.Exercicio12.i
+	@echo ... lista_5/Lista5.Exercicio12.s
 	@echo ... lista_5/Lista5.Exercicio13.obj
 	@echo ... lista_5/Lista5.Exercicio13.i
 	@echo ... lista_5/Lista5.Exercicio13.s

@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #define MAX 100
 
-
-
 int main() {
     int inteiro, l = 0,key, repetidos[MAX];
 
@@ -11,13 +9,13 @@ int main() {
     printf("Digite um numero inteiro: \n");
     scanf("%d", &inteiro);
 
-    //Alocação dinamica do vetor
+    //Alocaï¿½ï¿½o dinamica do vetor
     int *v = (int *) malloc(inteiro * sizeof(int));
     if (v == NULL) {
-        printf("Alocação dinamica falhou...");
+        printf("Alocaï¿½ï¿½o dinamica falhou...");
     }
 
-    //percorrendo os indices do vetor e dnado input apenas numeros de 0 a 10
+    //percorrendo os indices do vetor e dando input apenas numeros de 0 a 10
     printf("Os numeros aceitos para alocacao vao de 0 a 10...\n");
     for (int i = 0; i < inteiro; ++i) {
         printf("Digite os valor para a posicao [%d] = \n", i);
@@ -30,11 +28,11 @@ int main() {
 
     // validando apenas os que repetem
     for (int i = 0; i < inteiro; i++) {
-        for (int j = i +1; j < inteiro; j++) {
-            key = 0;
-            for (int k = 0; k < inteiro; ++k) {
+        for (int j = i + 1; j < inteiro; j++) { //j Ã© 1 apÃ³s o i
+            key = 0; //key usando uma lÃ³gica verdadeiro falso...
+            for (int k = 0; k < inteiro; ++k) { //laÃ§o para analisar vetor[j] se Ã© igual aos repetidos[k]
                 if(v[j] == repetidos[k]){
-                    key = 1;
+                    key = 1; //key muda de valor
                 }
             }
             if (key != 1){

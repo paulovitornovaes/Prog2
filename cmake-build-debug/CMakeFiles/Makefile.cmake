@@ -69,6 +69,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Lista4.Exercicio10.dir/DependInfo.cmake"
   "CMakeFiles/Lista5.Exercicio8.dir/DependInfo.cmake"
   "CMakeFiles/Lista5.Exercicio13.dir/DependInfo.cmake"
+  "CMakeFiles/Lista5.Exercicio12.dir/DependInfo.cmake"
   "CMakeFiles/Lista5.Exercicio9.dir/DependInfo.cmake"
   "CMakeFiles/Lista5.Exercicio5.dir/DependInfo.cmake"
   "CMakeFiles/Lista5.Exercicio1.dir/DependInfo.cmake"

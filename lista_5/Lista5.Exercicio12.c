@@ -1,43 +1,35 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 
-int main() {
+int main(void)
+{
 
-    char texto[50], textoEditado[50], letra;
-    int i, j, k, contador = 1;
+    char str[50];
+    int i,j, cont = 0;
 
-    printf("Digite uma frase: \n");
-    scanf("%49[^\n]", texto);
+    printf("Digite uma string: ");
+    gets(str);
 
+    int len = strlen(str);
+    
+    for(i=0;i<len+1;i++)
+    {
+         cont=1;
+        if(str[i])
+        {
 
-    for (i=0; texto[i] != '\0'; i++) {
-        letra = texto[i];
-        if (texto[i] == 32){
-            letra = 0;
-        }
-        for (j=0; j<50; j++){
-            if (letra == textoEditado[j]){
-                letra = 0;
-                break;
-            }
-        }
-        textoEditado[i] = letra;
-        for (k=i+1; texto[k] != '\0'; k++){
-            if (letra == texto[k]) {
-                contador++;
-            }
-        }
-        if (letra != 0){
-            printf ("'%c' = %d, ", letra, contador);
-        }
-        contador = 1;
+           for(j=i+1;j<len+1;j++)
+          {
 
-    }
+            if(str[i]==str[j])
+            {
+                 cont++;
+                 str[j]='\0';
+             }
+          }
+          printf("'%c' = %d ",str[i],cont);
+       }
 
-
-
+     }
     return 0;
-
-
-
 }

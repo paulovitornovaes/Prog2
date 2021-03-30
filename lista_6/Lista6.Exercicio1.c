@@ -1,92 +1,73 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float *acima_da_media(int n,float *pvetor, int *ptam);
+float *acima_da_media(int n, float *vet, int *tam);
+void mostra_vetor(int n, float*vet);
 
-int main(){
-    int tam; // inteiro tam
-    float *vetor; //vetor com alocação dinamica
-    int *ptam; //ponteiro para o tamanho
-    ptam = &tam; //atribuindo o endereço do inteiro tam no ponteiro ptam
-    float *vetresposta; //ponteiro que recebe o retorno da funcao acima_da_media
+int main()
+{
+    float exemplo[] = {5.5, 3.2, 2.5, 9.4, 7.5, 4.1, 5.4, 8.0, 6.9};
+    int tam = 9;
+    mostra_vetor(tam, exemplo);
+    float * nexemplo = acima_da_media(tam, exemplo, &tam);
+    mostra_vetor(tam, nexemplo);
 
-    //input no valor do tamanho que queremos para o vetor
-    printf("Digite o tamanho do vetor: \n");
-    scanf("%d", &tam);
-
-
-    //alocação dinamica para o vetor
-    vetor = (float  *)malloc(tam * sizeof (float));
-    if (vetor == NULL){
-        printf("Nao consegui alocação dinamica\n");
-    }
-
-
-    // laço para dar input nos valores desejados no vetor
-    for(int i = 0; i < tam; i++){
-        printf("Indice [%d] = \n", i);
-        scanf("%f", &vetor[i]);
-    }
-
-
-    //chamada da função e atribuição do valor retornado a uma variavel do main
-    vetresposta = acima_da_media(/*coloque o int n aqui*/ , vetor, ptam);
-
-
-    // lendo os valores do vetresposta feito na funçao chamada
-    printf("{");
-    for (int i = 0; i < tam; i++){
-
-        printf("%.2f ", vetresposta[i]);
-
-    }
-    printf("}");
-
-
-    //liberando espaço da alocação dinamica
-    free(vetor);
+    free(nexemplo);
 
     return 0;
 }
 
-float *acima_da_media(int n,float *vetor, int *ptam){
-    float media = 0; // variavel que vai receber a soma dividido pelo valor do tamanho do vetor
-    float *vetresposta; //novo vetor com alocação dinamica
-    int contador = 0; // contador incremento
-
-    //laço para ver todos valores dentro do vetor e somar todos
-    for(int i = 0; i < n; i++){
-        media += vetor[i];
+float *acima_da_media(int n, float *vet, int *tam)
+{
+    float media = 0;
+    int count = 0;
+    float * vetresposta;
+    for (int i = 0; i < n; i++)
+    {
+        media += vet[i];
     }
     media /= n;
-
-    //incrementando o valor de n para saber o novo tamanho do vetor
-    for(int i = 0; i < n; i++){
-        if (vetor[i] > media){
-            contador++;
-        }
-    }
-
-    //alocando espaço para o novoVetor
-    vetresposta = (float *) malloc(contador * sizeof(float));
-    if (vetresposta == NULL){
+    for (int i = 0; i < n; i++)
+    {
+        if (vet[i] > media)
+        {
+            count++;
+        }        
+    }    
+    vetresposta = (float*) malloc(count * sizeof(float));
+    if (vetresposta == NULL)
+    {
         return NULL;
     }
+    
 
-    contador = 0; // resetando o valor do contador para usar novamente
+    count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (vet[i] > media)
+        {
+            vetresposta[count] = vet[i];
+            count++;
+        }        
+    }
+    *tam = count;
 
+    return vetresposta; 
+}
 
-    //laço para dizer que só entra valores no vetresposta se forem maior que o valor da média
-    for (int i = 0; i < n; ++i) {
-        if (vetor[i] > media){
-            vetresposta[contador] = vetor[i];
-            contador++;
+void mostra_vetor(int n, float*vet)
+{
+    printf("{ ");
+    for (int i = 0; i < n; i++)
+    {
+        if (i != n-1)
+        {
+            printf("%.1f, ", vet[i]);            
+        }
+        else
+        {
+            printf("%.1f ", vet[i]);
         }
     }
-
-    // ponteiro tam atualizado com o valor do tamanho do novo vetor
-    *ptam = contador;
-
-    return vetresposta;
-
+    printf("}\n");
 }

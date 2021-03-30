@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//finalizado
 void calcula_corrida(float dist, float *b1, float *b2);
 
 int main(){

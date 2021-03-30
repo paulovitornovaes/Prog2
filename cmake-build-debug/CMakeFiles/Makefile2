@@ -88,6 +88,7 @@ all: CMakeFiles/Lista4.Exercicio9.dir/all
 all: CMakeFiles/Lista4.Exercicio10.dir/all
 all: CMakeFiles/Lista5.Exercicio8.dir/all
 all: CMakeFiles/Lista5.Exercicio13.dir/all
+all: CMakeFiles/Lista5.Exercicio12.dir/all
 all: CMakeFiles/Lista5.Exercicio9.dir/all
 all: CMakeFiles/Lista5.Exercicio5.dir/all
 all: CMakeFiles/Lista5.Exercicio1.dir/all
@@ -127,6 +128,7 @@ clean: CMakeFiles/Lista4.Exercicio9.dir/clean
 clean: CMakeFiles/Lista4.Exercicio10.dir/clean
 clean: CMakeFiles/Lista5.Exercicio8.dir/clean
 clean: CMakeFiles/Lista5.Exercicio13.dir/clean
+clean: CMakeFiles/Lista5.Exercicio12.dir/clean
 clean: CMakeFiles/Lista5.Exercicio9.dir/clean
 clean: CMakeFiles/Lista5.Exercicio5.dir/clean
 clean: CMakeFiles/Lista5.Exercicio1.dir/clean
@@ -205,7 +207,7 @@ CMakeFiles/Lista4.Exercicio3.dir/clean:
 CMakeFiles/Lista6.Exercicio1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio1.dir\build.make CMakeFiles/Lista6.Exercicio1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio1.dir\build.make CMakeFiles/Lista6.Exercicio1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Lista6.Exercicio1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target Lista6.Exercicio1"
 .PHONY : CMakeFiles/Lista6.Exercicio1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -367,7 +369,7 @@ CMakeFiles/Lista4.Exercicio5.dir/clean:
 CMakeFiles/teste.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target teste"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target teste"
 .PHONY : CMakeFiles/teste.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,7 +396,7 @@ CMakeFiles/teste.dir/clean:
 CMakeFiles/Lista6.Exercicio6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio6.dir\build.make CMakeFiles/Lista6.Exercicio6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio6.dir\build.make CMakeFiles/Lista6.Exercicio6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target Lista6.Exercicio6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target Lista6.Exercicio6"
 .PHONY : CMakeFiles/Lista6.Exercicio6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -421,7 +423,7 @@ CMakeFiles/Lista6.Exercicio6.dir/clean:
 CMakeFiles/Lista6.Exercicio2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio2.dir\build.make CMakeFiles/Lista6.Exercicio2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio2.dir\build.make CMakeFiles/Lista6.Exercicio2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target Lista6.Exercicio2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target Lista6.Exercicio2"
 .PHONY : CMakeFiles/Lista6.Exercicio2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -529,7 +531,7 @@ CMakeFiles/Lista4.Exercicio10.dir/clean:
 CMakeFiles/Lista5.Exercicio8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio8.dir\build.make CMakeFiles/Lista5.Exercicio8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio8.dir\build.make CMakeFiles/Lista5.Exercicio8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Lista5.Exercicio8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Lista5.Exercicio8"
 .PHONY : CMakeFiles/Lista5.Exercicio8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +558,7 @@ CMakeFiles/Lista5.Exercicio8.dir/clean:
 CMakeFiles/Lista5.Exercicio13.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio13.dir\build.make CMakeFiles/Lista5.Exercicio13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target Lista5.Exercicio13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target Lista5.Exercicio13"
 .PHONY : CMakeFiles/Lista5.Exercicio13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -577,13 +579,40 @@ CMakeFiles/Lista5.Exercicio13.dir/clean:
 .PHONY : CMakeFiles/Lista5.Exercicio13.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Lista5.Exercicio12.dir
+
+# All Build rule for target.
+CMakeFiles/Lista5.Exercicio12.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target Lista5.Exercicio12"
+.PHONY : CMakeFiles/Lista5.Exercicio12.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Lista5.Exercicio12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Lista5.Exercicio12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Lista5.Exercicio12.dir/rule
+
+# Convenience name for target.
+Lista5.Exercicio12: CMakeFiles/Lista5.Exercicio12.dir/rule
+
+.PHONY : Lista5.Exercicio12
+
+# clean rule for target.
+CMakeFiles/Lista5.Exercicio12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio12.dir\build.make CMakeFiles/Lista5.Exercicio12.dir/clean
+.PHONY : CMakeFiles/Lista5.Exercicio12.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Lista5.Exercicio9.dir
 
 # All Build rule for target.
 CMakeFiles/Lista5.Exercicio9.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio9.dir\build.make CMakeFiles/Lista5.Exercicio9.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio9.dir\build.make CMakeFiles/Lista5.Exercicio9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Lista5.Exercicio9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Lista5.Exercicio9"
 .PHONY : CMakeFiles/Lista5.Exercicio9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -610,7 +639,7 @@ CMakeFiles/Lista5.Exercicio9.dir/clean:
 CMakeFiles/Lista5.Exercicio5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio5.dir\build.make CMakeFiles/Lista5.Exercicio5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio5.dir\build.make CMakeFiles/Lista5.Exercicio5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Lista5.Exercicio5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Lista5.Exercicio5"
 .PHONY : CMakeFiles/Lista5.Exercicio5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -664,7 +693,7 @@ CMakeFiles/Lista5.Exercicio1.dir/clean:
 CMakeFiles/Lista5.Exercicio3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio3.dir\build.make CMakeFiles/Lista5.Exercicio3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio3.dir\build.make CMakeFiles/Lista5.Exercicio3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Lista5.Exercicio3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Lista5.Exercicio3"
 .PHONY : CMakeFiles/Lista5.Exercicio3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -691,7 +720,7 @@ CMakeFiles/Lista5.Exercicio3.dir/clean:
 CMakeFiles/Lista5.Exercicio2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio2.dir\build.make CMakeFiles/Lista5.Exercicio2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio2.dir\build.make CMakeFiles/Lista5.Exercicio2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target Lista5.Exercicio2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Lista5.Exercicio2"
 .PHONY : CMakeFiles/Lista5.Exercicio2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -745,7 +774,7 @@ CMakeFiles/Lista4.Exercicio12.dir/clean:
 CMakeFiles/Lista5.Exercicio4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio4.dir\build.make CMakeFiles/Lista5.Exercicio4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio4.dir\build.make CMakeFiles/Lista5.Exercicio4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Lista5.Exercicio4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Lista5.Exercicio4"
 .PHONY : CMakeFiles/Lista5.Exercicio4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -772,7 +801,7 @@ CMakeFiles/Lista5.Exercicio4.dir/clean:
 CMakeFiles/Lista5.Exercicio7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio7.dir\build.make CMakeFiles/Lista5.Exercicio7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista5.Exercicio7.dir\build.make CMakeFiles/Lista5.Exercicio7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Lista5.Exercicio7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Lista5.Exercicio7"
 .PHONY : CMakeFiles/Lista5.Exercicio7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -799,7 +828,7 @@ CMakeFiles/Lista5.Exercicio7.dir/clean:
 CMakeFiles/Lista6.Exercicio3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio3.dir\build.make CMakeFiles/Lista6.Exercicio3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio3.dir\build.make CMakeFiles/Lista6.Exercicio3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target Lista6.Exercicio3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target Lista6.Exercicio3"
 .PHONY : CMakeFiles/Lista6.Exercicio3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -853,7 +882,7 @@ CMakeFiles/Lista4.Exercicio6.dir/clean:
 CMakeFiles/Lista6.Exercicio7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio7.dir\build.make CMakeFiles/Lista6.Exercicio7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio7.dir\build.make CMakeFiles/Lista6.Exercicio7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target Lista6.Exercicio7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target Lista6.Exercicio7"
 .PHONY : CMakeFiles/Lista6.Exercicio7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -880,7 +909,7 @@ CMakeFiles/Lista6.Exercicio7.dir/clean:
 CMakeFiles/Lista6.Exercicio8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio8.dir\build.make CMakeFiles/Lista6.Exercicio8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lista6.Exercicio8.dir\build.make CMakeFiles/Lista6.Exercicio8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target Lista6.Exercicio8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\vitinhogay\Documents\Prog2\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target Lista6.Exercicio8"
 .PHONY : CMakeFiles/Lista6.Exercicio8.dir/all
 
 # Build rule for subdir invocation for target.

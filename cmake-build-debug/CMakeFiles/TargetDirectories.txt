@@ -15,6 +15,7 @@ D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista4.Exercicio9.dir
 D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista4.Exercicio10.dir
 D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista5.Exercicio8.dir
 D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista5.Exercicio13.dir
+D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista5.Exercicio12.dir
 D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista5.Exercicio9.dir
 D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista5.Exercicio5.dir
 D:/vitinhogay/Documents/Prog2/cmake-build-debug/CMakeFiles/Lista5.Exercicio1.dir

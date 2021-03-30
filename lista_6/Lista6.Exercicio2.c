@@ -1,59 +1,62 @@
 #include <stdio.h>
+#include <conio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <conio.h>
 
-char *compactar(char *s);
+char *compactar(char *s) {
+    int contador = 0, i = 0, j;
 
-int main(){
-    char *palavra = "     Paulo Vitor     ";
-    compactar(palavra);
-    return 0;
+    char *texto = malloc(sizeof (char) * (1 + strlen(s)));
+    if(texto == NULL){
+        printf("erro de alocacao dinamica...\n");
+    }
+    strcpy(texto, s); //texto = s
+
+
+    printf("\nPalavra digitada: '");
+    for (i = 0; texto[i] != '\0'; i++) {
+        printf("%c", texto[i]);
+        contador++;
+    }
+    printf("'\n");
+
+
+    for (i = 0; texto[i] != '\0'; i++) {
+        if (texto[i] == 32) {
+
+            for (j = i; texto[j] != '\0'; j++) {
+                texto[j] = texto[j + 1];
+            }
+            i--;
+        }
+        else {
+            break;
+        }
+    }
+
+
+    for (i = contador; i >= 0; i--) {
+        if (texto[i] != 32 && texto[i] != '\0') {
+            texto[i + 1] = '\0';
+            break;
+        }
+    }
+    return texto;
 }
 
-char *compactar(char *s){
-    char primeira_letra;
-    char ultima_letra;
-    char *novo_vetor;
-    int tamanho = strlen(s);
 
-    //varrendo os valores para achar a ultima letra
-    for (int i = 0; i < strlen(s); ++i) {
-        if (s[i] != ' '){
-            primeira_letra = getch();
-            printf("A tecla pressionada foi '%c'\n", primeira_letra);
-            break;
-        }
-    }
-    printf("TAMANHO DA FRASE = %d\n", strlen(s));
-    //varrendo de cima para baixo para achar a primeira letra
-    for (int i = tamanho; i > 0 ; --i) {
-        if (s[i] != ' '){
-            char c;
-            c = getch();
-            printf("A tecla pressionada foi '%c'\n", c);
-            break;
-        }
+void main (void) {
+    char texto[80];
+    int contador = 0, i = 0, j;
 
-    }
+    printf("Digite uma palavra: \n");
+    scanf("%79[^\n]", texto);
 
-    printf("\nPrimeira letra = [%c] Ultima letra [%c]\n", primeira_letra, ultima_letra);
+    char *resultado = compactar(texto);
+
+    printf("\nResultado: \n'%s'\n", resultado);
 
 
+    free(resultado);
 
-    //alocacao dinamica para o novo vetor
-    int qtd = primeira_letra - ultima_letra + 1;
-    novo_vetor = (char *) malloc((qtd + 1) * sizeof (char ));
-    if(novo_vetor == NULL){
-        printf("Erro de alocacao...");
-        return NULL;
-    }
-
-    //atribuindo os caracteres no novo vetor
-    for (int i = 0; i < qtd; ++i) {
-        //novo_vetor[i] = s[i];
-        //printf("%c", novo_vetor[i]);
-    }
-
-    return novo_vetor;
 }

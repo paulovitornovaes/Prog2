@@ -1,9 +1,13 @@
 #include <stdio.h>
 
+//finalizado
+
 int testa_PA(int n, int* v);
 
 int main(){
     int vetorTeste [5] = {5, 10, 15, 20, 25};
+    
+
     int razao;
     razao = testa_PA(5 ,vetorTeste);
     printf("razao = %d\n", razao);

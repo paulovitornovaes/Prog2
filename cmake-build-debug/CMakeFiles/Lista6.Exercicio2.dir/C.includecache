@@ -9,10 +9,10 @@
 D:/vitinhogay/Documents/Prog2/lista_6/Lista6.Exercicio2.c
 stdio.h
 -
+conio.h
+-
 string.h
 -
 stdlib.h
--
-conio.h
 -
 
