@@ -3,15 +3,16 @@
 
 int main() {
 
-    char s[20], valor, tmp[3];
+    char s[20], valor, tmp;
     int i, j;
 
     printf("Digite uma frase: \n");
     scanf("%19[^\n]", s);
 
     printf("\nDigite um caractere: \n");
-    scanf("%s", tmp);
-    valor = tmp[0];
+    //scanf("%s", tmp);
+    tmp = ' ';
+    valor = tmp;
 
     for (i=0; i<20; i++) {
         if (valor == s[i]) {
