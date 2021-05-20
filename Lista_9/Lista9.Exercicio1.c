@@ -1,3 +1,26 @@
+/*
+Uma empresa que organiza concursos está realizando um grande processo seletivo e conta com
+um sistema informatizado para auxiliar no gerenciamento de informações sobre os candidatos.
+Nesse sistema, as informações referentes aos candidatos são armazenadas em um vetor de
+ponteiros para dados estruturados do tipo Candidato.
+
+O campo nasc refere-se à data de nascimento do candidato e é do tipo Data.
+
+O campo loc refere-se às informações sobre o local de realização das provas e é um ponteiro para
+o tipo Local.
+
+O campo nt refere-se às informações sobre as notas de prova do candidato e é do tipo Notas.
+
+a. Faça um programa que leia as informações de n candidatos. Crie uma variável alocada
+dinamicamente que armazene as informações lidas.
+
+b. Faça um menu de opções com a opção ‘1’ para leitura dos dados de candidatos e a
+opção ‘2’ para impressão de todas as informações dos candidatos.
+
+c. Faça com que uma opção do menu permita alterar o endereço e a sala do local de
+provas de um determinado candidado.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

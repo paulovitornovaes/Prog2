@@ -1,3 +1,23 @@
+/*
+Mostre e explique (comentando as linhas de cÃ³digo) o que serÃ¡ impresso na tela:
+#include<stdio.h>
+#include<string.h>
+main(void)
+{
+char texto[]= "foi muito facil";
+int i;
+for (i = 0; texto[i]!='\0'; i++)
+{
+if (texto[i] == ' ') break;
+}
+i++;
+for ( ; texto[i]!='\0'; i++)
+{
+printf("%c", texto[i]);
+}
+}
+*/
+
 #include<stdio.h>
 #include<string.h>
 
@@ -7,15 +27,15 @@ main(void)
     char texto[]= "foi muito facil"; //vetor de caracteres
     int i; // inteiro i para incremento
 
-    // i começa do 0
+    // i comeï¿½a do 0
     // termina quando o texto[i] for nulo (final do vetor)
-    //i é incrementado
+    //i ï¿½ incrementado
     for (i = 0; texto[i]!='\0'; i++)
     {
-        //se chegar no espaço em branco o loop é interrompido
+        //se chegar no espaï¿½o em branco o loop ï¿½ interrompido
         if (texto[i] == ' ') break;
     }
-    // incrementa 1 vez apenas o int i para pular o caracter espaço
+    // incrementa 1 vez apenas o int i para pular o caracter espaï¿½o
     i++;
 
     // o loop vai terminar no final do programa, incrementando o valor de i a cada loop
@@ -25,5 +45,5 @@ main(void)
         printf("%c", texto[i]);
     }
 }
-/* com isso o programa foi até um certo espaço do vetor, deu break e dpos criou
-outro loop, dessa vez sem um break e foi imprimindo até chegar no final */
+/* com isso o programa foi atï¿½ um certo espaï¿½o do vetor, deu break e dpos criou
+outro loop, dessa vez sem um break e foi imprimindo atï¿½ chegar no final */

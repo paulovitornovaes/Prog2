@@ -1,6 +1,10 @@
+/* 
+Escreva um programa que realize a leitura da idade, da altura e do sexo de n pessoas. Ao final,
+mostre o número de mulheres com idade entre 20 e 35 anos e o número de homens com altura
+maior que 1,80m. Calcule e mostre também a variância da altura.
+*/
 #include <stdio.h>
 #define MAX 100
-//Finalizado
 
 //idade, altura e sexo de n pessoas
 // mulheres entre 20 e 35 anos

@@ -1,5 +1,9 @@
+/* 
+Implemente um programa que chame a função média com o seguinte protótipo:
+float media(int n, float *v)
+*/
+
 #include <stdio.h>
-//FINALIZADO
 
 // prototipo da media
 float media(int n,float *v);

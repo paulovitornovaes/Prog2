@@ -1,3 +1,17 @@
+/*
+Modifique o programa anterior da seguinte forma:
+a) Passo igual ao da questão 1.
+b) Ao invés de calcular e imprimir na main as repetições, crie uma
+função 'repeticao' para fazer esse trabalho. A função deve seguir o
+protótipo
+void repeticao(int *vet, int tam);
+Onde 'vet' e 'tam' foram lidos no passo a).
+
+- Exemplo de execução: idêntico ao anterior.
+- Obs.: A impressão é feita dentro da função 'repeticao'.
+
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100
@@ -12,10 +26,10 @@ int main() {
     printf("Digite um numero inteiro: \n");
     scanf("%d", &inteiro);
 
-    //Aloca��o dinamica do vetor
+    //Aloca��o dinamica do vetor
     int *v = (int *) malloc(inteiro * sizeof(int));
     if (v == NULL) {
-        printf("Aloca��o dinamica falhou...");
+        printf("Aloca��o dinamica falhou...");
     }
 
     //percorrendo os indices do vetor e colocando apenas numeros de 0 a 10

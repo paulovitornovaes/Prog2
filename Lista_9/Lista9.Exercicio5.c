@@ -1,3 +1,18 @@
+/*
+Considere um sistema de apoio escolar que armazena as informações sobre as notas dos alunos
+de uma turma em um vetor de ponteiros para variáveis do tipo Aluno.
+
+5a. Escreva uma função que aloca espaço em memória para n alunos. A função tem o seguinte
+protótipo: Aluno ** alocaAlunos(int n);
+
+5b. Escreva uma função que atribui a um determinado elemento do vetor de ponteiros para
+estruturas os dados passados como parâmetro. A função recebe o vetor a, o índice do vetor e os
+dados a serem preenchidos na estrutura. A função tem o seguinte protótipo:
+
+void atribui(Aluno ** a, int indice, int matricula, char *nome, float
+nota1, float nota2, float nota3, char *nomeRua, int numero);
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

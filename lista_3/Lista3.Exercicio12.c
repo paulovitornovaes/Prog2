@@ -1,3 +1,9 @@
+/* 
+Fazer um programa para receber uma frase do usuário, caracter a caracter usando getch() e
+armazenando no vetor (máx. 80 caracteres). Quando o usuário digita enter (‘\r’) a recepção é
+finalizada. Mostrar cada palavra da frase em uma linha separada
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>

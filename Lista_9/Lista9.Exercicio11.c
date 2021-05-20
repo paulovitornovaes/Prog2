@@ -1,3 +1,33 @@
+/*
+Criar um tipo Aluno e um tipo Materia tal como dado abaixo:
+
+typedef struct Aluno {
+int matricula;
+float *vNotas; // Armazena as 5 notas de um aluno ao longo de um ano.
+char nome[100];
+}Aluno;
+typedef struct Matéria {
+Aluno *V; // Armazena a informação de n alunos !!
+float media[5]; // Armazena as 5 médias do ano.
+int nAlunos // Número de alunos matriculados no curso.
+}Materia;
+
+(A) Criar uma função Aluno* fillAluno() que preenche os campos da estrutura do tipo Aluno com
+dados fornecidos pelo usuário.
+
+(B) Criar uma função Materia * fillMateria(int numAlunos) que preenche os campos da estrutura
+do tipo Materia realizando chamadas a função fillAluno em um número de vezes igual ao número
+contido na variável numAlunos.
+
+(C) Criar uma função void mediaMateria(Materia *m1) que fornece a média de cada prova do
+ano para os alunos contidos na variável m1 e assim preenche o campo media de m1.
+
+(D) Criar uma função void mostraMateria(Materia *m1) que mostra as informações dos alunos
+contidas na variável m1.
+
+(E) Criar um programa que ilustra o funcionamento das funções anteriores.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,6 +1,12 @@
+/* 
+Escreva um programa que sorteie uma letra do alfabeto de ‘a’ a ‘z’ e o usuário é
+perguntado qual é essa letra. O programa deve informar se a letra é maior ou menor e
+quando o usuário a acertou.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
-//#include <time.h> //uso o time para gerar valores aleatorios, ele serve como uma semente, entao os segundos vao ajudar a ''randomizar''
+#include <time.h> 
 
 int main(){
     char letra = 0, i = 0;

@@ -1,3 +1,15 @@
+/*
+Sabendo que:
+Matriz original: Transposta:
+1 3 4 5       1 3 7 3
+3 6 8 9   =>  3 6 2 2
+7 2 4 5       4 8 4 1
+3 2 1 5       5 9 5 5
+E ainda sabendo que uma matriz simétrica é aquela em que a matriz original é igual a
+sua transposta, faça uma função que identifique se uma matriz é simétrica. Utilize
+funções para cada atividade do programa.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

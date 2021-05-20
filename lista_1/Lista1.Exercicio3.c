@@ -1,12 +1,14 @@
+/*Fazer um programa que recebe um símbolo de operação do usuário (+, -, / ou *) e dois
+números reais. O programa deve retornar o resultado da operação recebida sobre estes
+dois números. */
+
 #include <stdio.h>
 
 float n1, n2;
 char operacao;
 
-
 int main(){
 
-    // DUVIDA POR QUE NAO POSSO JOGAR O SCANF DE OPERACAO PARA DEPOIS (O PROGRAMA NAO LE QUAL OPERACAO EH)
     printf("Digite qual operacao (+ - * /): \n");
     scanf("%c", &operacao);
 

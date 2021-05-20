@@ -1,3 +1,8 @@
+/* 
+Escreva um programa que tenha uma função que retorne se a soma de cada uma de
+suas linhas totaliza o mesmo valor para todas as linhas.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

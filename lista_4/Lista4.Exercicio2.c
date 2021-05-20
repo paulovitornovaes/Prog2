@@ -1,6 +1,14 @@
+/*
+Escreva um programa em C para ler um vetor R (de 5 elementos) e um vetor S (de 10
+elementos). Gere um vetor X que possua os elementos comuns a R e a S. Considere que pode
+existir repetição de elementos no mesmo vetor. Nesta situação somente uma ocorrência do
+elemento comum aos dois deve ser copiada para o vetor X. Após o término da cópia, escrever o
+vetor X.
+
+*/
+
 #include <stdio.h>
 
-//finalizado
 
 void input_vetor(int *vet, int n);
 void imprime_vetor(int *vet, int n);

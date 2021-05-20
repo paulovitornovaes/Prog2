@@ -1,3 +1,18 @@
+/*
+Uma instituição de pesquisa recolheu amostras de estados brasileiros a respeito do
+salário da população.
+
+a. Implemente a função cadastra, que atribui os parâmetros recebidos aos campos da
+estrutura Assalariados.
+b. Implemente a função imprime, que imprime todos os elementos do vetor de
+Assalariados.
+
+c. Implemente a função relatório, que imprime a quantidade de homens por estado com
+mais de 40 anos que recebem salários superiores a R$ 1000,00. Caso a quantidade no
+estado analisado seja zero, então não imprime nada. A mensagem de impressão deve ser:
+Estado=%s com %d homens maiores de 40 anos e salário maior que R$ 1000,00
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

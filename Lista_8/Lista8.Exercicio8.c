@@ -1,3 +1,9 @@
+/* 
+Escreva uma função em C que receba um vetor de caracteres e faça a ordenação
+desses elementos usando os métodos da Bolha e do QuickSort. Após finalizar esses
+programas, utilize a função qsort do C para realizar a ordenação.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,3 +1,9 @@
+/*
+Implemente um programa que leia do usuário vários nomes completos de pessoas,
+até que o usuário digite a palavra “fim”. Esses nomes devem ser armazenados em um
+vetor. Imprima no final a média e a variância do tamanho dos nomes.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

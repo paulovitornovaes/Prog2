@@ -1,3 +1,29 @@
+/*
+Criar um tipo Livro e um tipo Biblioteca tal como dado abaixo:
+typedef struct Livro {
+int ano;
+char titulo[100];
+char autor[100];
+int nVolume; // Número de exemplares de um dado livro.
+float preco;
+}Livro;
+typedef struct Biblioteca {
+Livro **V; // Armazena a informação de n livros !!
+int nLivros // Número de livros existentes na biblioteca.
+}Biblioteca;
+
+(A) Criar uma função Livro * fillLivro() que preenche os campos da estrutura Livro e retorna
+esse novo livro.
+(B) Criar uma função Biblioteca * fillBiblioteca(int numLivros) que preenche os campos da
+estrutura do tipo Biblioteca realizando chamadas a função fillLivro em um número de vezes igual
+ao número contido na variável numLivros.
+(C) Criar uma função void valorBiblioteca(Biblioteca * b1, int numLivros) que fornece o
+montante gasto para se comprar todos os exemplares existentes na biblioteca.
+(D) Criar uma função Livro * maiorBiblioteca(Biblioteca * b1, int numLivros) que retorna o livro
+com maior número de exemplares.
+(E) Criar um programa que ilustra o funcionamento das funções anteriores.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

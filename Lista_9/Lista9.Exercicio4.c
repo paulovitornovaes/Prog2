@@ -1,3 +1,12 @@
+/*
+a. Implemente a função atribui, conforme o seu protótipo (dica: somente 1 linha de
+código no corpo da função).
+b. Implemente a função get_sobrenome, conforme o seu protótipo, que retorna a última
+palavra do nome.
+c. O que será impresso no segundo printf?
+d. O que será impresso no terceiro printf?
+*/
+
 #define MAX 4
 #define MAXNOME 31
 #include <stdio.h>

@@ -1,6 +1,9 @@
 #include <stdio.h>
-//Finalizado
-int main(){
+/*Fazer um programa para receber um número inteiro de segundos do usuário e imprimir
+a quantidade correspondente em horas, minutos e segundos. */
+
+int main()
+{
     int segundos, horas, minutos;
     printf("Digite a quantidade de segundos: \n");
     scanf("%i", &segundos);

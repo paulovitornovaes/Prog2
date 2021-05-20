@@ -1,3 +1,7 @@
+/* 
+Implementar a função INVERTE que recebe um número unsigned int como parâmetro
+e retorna este número escrito ao contrário. Ex: 431 <-> 134.
+*/
 #include <stdio.h>
 
 int inverter(); // prototipo da funcao

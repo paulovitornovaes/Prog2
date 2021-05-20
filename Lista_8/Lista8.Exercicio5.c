@@ -1,3 +1,10 @@
+/* 
+Faça um programa que, dados duas matrizes, chame funções para retornar:
+a) a soma destas duas matrizes
+b) a soma das diagonais de cada matriz (atualize os parâmetros passados por referência)
+c) a multiplicação das duas matrizes
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

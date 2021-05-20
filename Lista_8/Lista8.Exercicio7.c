@@ -1,3 +1,25 @@
+/*
+A distância entre várias cidades é dada pela tabela abaixo (em km):
+
+     1  2  3  4  5
+   ________________
+1  | 00 15 30 05 12
+2  | 15 00 10 17 28
+3  | 30 10 00 03 11
+4  | 05 17 03 00 80
+5  | 12 28 11 80 00
+
+a) Construa um programa que leia a tabela acima e informe ao usuário a distância entre
+duas cidades por ele requisitadas, até que ele entre com o código 0 para ambas as
+cidades;
+b) Elabore um programa que imprima a tabela sem repetições, isto é, se a distância
+entre as cidades 1 e 3 foi impressa, não é necessário imprimir a distância entre 3 e 1;
+c) Dado um determinado percurso, imprima o total percorrido:
+Exemplo: dado o percurso 1, 2, 3, 2, 5, 1, 4, teremos:
+15 + 10 + 10 + 28 + 12 + 5 = 80 km.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

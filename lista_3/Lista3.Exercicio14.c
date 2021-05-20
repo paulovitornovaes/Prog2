@@ -1,6 +1,19 @@
+/* 
+Um cinema que possui capacidade de 100 lugares está quase sempre lotado. Certo dia cada
+espectador respondeu a um questionário, onde constava:
+- sua idade;
+- sua opinião em relação ao filme, que podia ser: ótimo, bom, regular, ruim ou péssimo.
+Elabore um programa que, recebendo estes dados calcule em funções e mostre:
+a. a quantidade de respostas ótimo;
+b. a diferença percentual entre respostas bom e regular;
+c. a média de idade das pessoas que responderam ruim;
+d. a porcentagem de respostas péssimo e a maior idade que utilizou esta opção;
+e. a diferença de idade entre a maior idade que respondeu ótimo e a maior idade que respondeu
+ruim.
+*/
+
 #include <stdio.h>
 #define MAX 100
-//FALTOU A E QUE EU NAO SEI FAZER
 
 //A
 int respostasOtimas(int *vetorOpniao);

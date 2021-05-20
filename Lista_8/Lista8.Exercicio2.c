@@ -1,3 +1,12 @@
+/*
+Escreva um programa em linguagem C que faça a leitura e calcule a soma de duas
+matrizes.
+Ex:
+1 2  3  4      2 1 1 1      3 3 4 5
+5 6  7  8   +  2 1 3 2  =   7 7 10 10
+9 10 11 12     1 4 1 2      10 14 12 14
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,7 @@
+/*
+Faça um teste de mesa para testar 3 exemplos do programa de conversão binária.
+*/
+
 #include <stdio.h>
 
 int conversao_binaria(int n, int *vetor_binario, int tamanho, int tamanho_fixo) // o "tamanho_fixo" é usado somente na última chamada da função no vetor_binário
@@ -60,7 +64,11 @@ int main(void)
     int vetor_binario[tamanho];                                                  // vetor com o tamanho encontrado anteriormente no laço
     tamanho -= 1;                                                                // decrementa o tamanho para ser usado nessa forma na função
     numero_binario = conversao_binaria(n, vetor_binario, tamanho, tamanho_fixo); //a função retornará um inteiro formatado como um "binário" 
+    printf("Se for digitado o numero 10 o binario vale 1010\n");
+    printf("Se for digitado o numero 20 o binario vale 10100\n");
+    printf("Se for digitado 30 o binario vale 11110\n");
     printf("\nO numero digitado em binario e': %d", numero_binario);
+    printf("No pdf coloquei um teste de mesa completo para o primeiro resultado, demonstrando como o programa funciona por completo!\n");
     getch();
 
     

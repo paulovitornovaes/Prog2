@@ -1,3 +1,10 @@
+/*
+Fazer um programa que sorteie um número de 0 a 100 e que permita que o usuário
+(sem conhecer o número sorteado) tente acertar. Caso não acerte, o programa deve
+imprimir uma mensagem informando se o número sorteado é maior ou menor que a
+tentativa feita. Ao acertar o número, o programa deve imprimir a quantidade de tentativas
+feitas.
+*/
 #include <stdio.h>
 #include <stdlib.h> // preciso do rand dessa biblioteca
 #include <time.h> // hora do sistema, vou usar como semente para o pseudo aleatorio

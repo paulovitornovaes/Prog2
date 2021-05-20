@@ -1,3 +1,25 @@
+/*
+Considere o tipo Aluno, que representa um aluno da disciplina, e o tipo Prova, que representa a
+prova de um aluno.
+O seguinte algoritmo de ordenação bolha foi implementado, utilizando as funções auxiliares
+compara e troca, para ordenar um vetor de ponteiros para o tipo Prova:
+
+void ordena(int n, Prova** v)
+{
+int fim,i;
+for(fim=n-1; fim>0; fim--)
+for(i=0; i<fim; i++)
+if(compara(v[i],v[i+1]))
+troca(&v[i],&v[i+1]);
+
+}
+Essa função ordena o vetor em ordem decrescente de nota da prova --- que equivale à soma das
+notas das quatro questões ---, com desempate pela ordem alfabética do nome do aluno. Por
+
+exemplo, se Maria e Ana tiram 6.0 e Sandra tira 7.0, a ordem deve ser Sandra, Ana e Maria.
+Implemente as funções compara e troca de forma que o algoritmo descrito funcione corretamente.
+*/
+
 #include <stdlib.h>
 
 struct aluno
